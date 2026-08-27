@@ -1,0 +1,41 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- STM32CubeIDE / CubeMX ---
+Debug/
+Release/
+Middlewares/
+cmake-build-*/
+*.launch
+.settings/
+.metadata/
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+
+# --- Word temp files ---
+~$*.docx
+
+# --- CAD / large binaries (uncomment if you set up Git LFS) ---
+# *.SLDPRT filter=lfs diff=lfs merge=lfs -text
+# *.SLDASM filter=lfs diff=lfs merge=lfs -text
+# *.f3d filter=lfs diff=lfs merge=lfs -text
+
+# --- Python (if scripts/ uses it) ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
