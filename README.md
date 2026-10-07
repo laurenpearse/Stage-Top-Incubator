@@ -20,9 +20,9 @@ Each subfolder has its own README with more detail on what goes there and, for f
 ## Status
 
 - [x] Literature review drafted
-- [ ] Control system architecture (decoupled PID: temp / CO2 / humidity)
-- [ ] Firmware
-- [ ] Hardware / chassis
+- [x] Control system architecture (decoupled PID: temp / CO2 / humidity)
+- [x] Firmware
+- [x] Hardware / chassis
 - [ ] Characterization (temperature stability, drift, humidity hold, gas accuracy)
 
 ## Getting started
