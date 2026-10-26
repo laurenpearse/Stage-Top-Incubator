@@ -53,6 +53,7 @@ The full bill of materials and wiring list are in the appendices of the report.
 firmware/
   subsystem-tests/   One PlatformIO project per sensor or actuator, used for commissioning
   control-tests/     Step tests, closed-loop runs, CO2 test and long run, with serial logs
+simulation/          MATLAB and Simulink controller design models
 data/                Processed test data and the MATLAB scripts that make the report figures
 hardware/
   cad/               Enclosure CAD (STEP)
@@ -61,7 +62,7 @@ docs/design-notes/   Working notes on heating, sensor selection and the CO2 path
 report/              LaTeX source of the report
 ```
 
-Each of `firmware/` and `data/` has its own README listing what every folder contains.
+Each of `firmware/`, `simulation/` and `data/` has its own README listing what every folder contains.
 
 ## Building the firmware
 
