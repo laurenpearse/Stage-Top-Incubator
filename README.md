@@ -1,30 +1,84 @@
-# Stage-Top Incubator for Bacterial Microscopy (RAV2026-07)
+# Stage-Top Incubator for Live-Cell Imaging of Mycobacteria
 
-Final-year mechatronics project: a compact, modifiable stage-top incubator for long-duration, live-cell microscopy of mycobacteria (*M. smegmatis*, with an eye toward future *M. tuberculosis* / host-cell infection work). The system holds a sealed optical chamber at a stable temperature, humidity and CO2 level over multi-day imaging runs, using decoupled PID control on an STM32 platform.
+EEE4022S final year project (topic RAV2026-07), Department of Electrical Engineering, University of Cape Town, 2026.
 
-Supervisors: Mandy, Robyn Verrinder.
+**Author:** Lauren Pearse
+**Supervisor:** R.A. Verrinder
+**Co-supervisor:** Dr M.K. Mason, Molecular Mycobacteriology Research Unit
 
-## Repo structure
+## About the project
+
+A low-cost stage-top incubator was designed, built and tested for time-lapse imaging of *Mycobacterium smegmatis* in a standard well plate on an inverted microscope. The chamber holds the sample at 37 °C, keeps the humidity high to limit evaporation, and has a CO2 channel for later host-cell infection work. All control runs on a single STM32 microcontroller.
+
+The design was based on first-principles models of the chamber, the heated glass lid and the gas volume. Proportional-integral (PI) controllers were tuned from these models with lambda tuning, then retuned from open-loop step tests that showed strong coupling between the two temperature loops.
+
+## Main results
+
+| Test | Result |
+|---|---|
+| Chamber air at 37 °C | 37.028 ± 0.038 °C over 80 min |
+| Chamber air at 39 °C | within 0.074 °C over 6.5 h |
+| Recovery after opening the chamber | back to setpoint in 1.6 min |
+| Heated glass lid | 48.00 ± 0.10 °C while the chamber moved by 3.8 °C |
+| Sample (centre well) with base heater | within 0.19 °C of 37 °C |
+| Humidity with no humidified supply | 77.3 %, against a calculated limit of 78 % |
+| Build cost | R 13 527 |
+
+Six of the ten requirements were met and one was partly met. The main findings were:
+
+- **Holding the air at setpoint does not hold the sample at setpoint.** With the air at 37 °C, the water in the wells sat at 34.4 °C. Heating the plate from below fixed this.
+- **Humidity is limited by the water temperature.** Air can only be saturated at the temperature of the water beneath it, so cooler wells cap the humidity. Reaching 90 % needs warmer water or a humidified air supply.
+- **The CO2 loop was not tested with gas** because the gas connection leaked. A sensitivity study in the report shows what to measure first on the next build.
+
+## Hardware
+
+| Part | Used for |
+|---|---|
+| STM32L476RG Nucleo-64 | Controller |
+| PT1000 + MAX31865 (SPI) | Reference temperature sensor and bench control sensor |
+| Four NTC thermistors + ADS1115 (I2C) | Measuring sensors, calibrated against the PT1000 |
+| Polyimide film heaters | Chamber wall heating |
+| ITO-coated glass | Heated, transparent lid |
+| Sensirion SCD30 (I2C) | CO2, temperature and humidity |
+| ExplorIR-M (UART) | CO2 |
+| DHT22, BMP280 | Humidity and pressure for the long humidity run |
+| CO2 cylinder, regulator, 230 V solenoid valve with relay | Gas supply |
+| 3D-printed PETG enclosure | Chamber body |
+
+The full bill of materials and wiring list are in the appendices of the report.
+
+## Repository structure
 
 ```
-firmware/     STM32 embedded code (temperature / CO2 / humidity control loops, sensor drivers, logging)
-hardware/     Chassis CAD, schematics, bill of materials
-docs/         Thesis chapters (incl. literature review) and supporting figures
-data/         Characterization results and raw run logs
-scripts/      Analysis / plotting scripts for data in data/
-notes/        Loose working notes, scratchpad, supervisor meeting notes
+firmware/     STM32 code (PlatformIO, Arduino framework)
+hardware/     CAD, schematics and bill of materials
+docs/         Report chapters and figures
+data/         Raw logs and processed test results
+scripts/      Analysis and plotting scripts
+notes/        Working notes from the project
 ```
 
-Each subfolder has its own README with more detail on what goes there and, for firmware/hardware, current status.
+See `firmware/README.md` for a list of the firmware projects and what each one tests.
 
-## Status
+## Building the firmware
 
-- [x] Literature review drafted
-- [x] Control system architecture (decoupled PID: temp / CO2 / humidity)
-- [x] Firmware
-- [x] Hardware
-- [x] Characterization (temperature stability, drift, humidity hold, gas accuracy)
+1. Install VS Code and the PlatformIO extension.
+2. Open one of the project folders in `firmware/Subsystem Testing/`.
+3. Connect the Nucleo board over USB and run **Build**, then **Upload**.
+4. Open the serial monitor at 115 200 baud to see the readings.
 
-## Getting started
+Libraries are listed in each project's `platformio.ini` and are downloaded automatically.
 
-Firmware is developed in STM32CubeIDE — open or create the project inside `firmware/`. CAD files live in `hardware/cad/` (note the format/tool used at the top of that folder's README once you pick one). Thesis chapters are plain text/LaTeX in `docs/thesis/chapters/`.
+## Further work
+
+The main changes recommended for the next build are:
+
+1. Heat the plate from below under closed-loop control, and map the temperature of every well.
+2. Supply the humidity through a separate pumped, humidified air circuit.
+3. Fix the gas connection and run the CO2 loop with gas, measuring the chamber leak first.
+4. Replace the jumper wiring with a printed circuit board before another long run.
+5. Revise the enclosure based on the first build.
+6. Test on a microscope, including light transmission through the lid and focal drift.
+7. Recalibrate the sensors near 37 °C, then image a live culture.
+
+The full report covers the design, models, tests and results in detail.
