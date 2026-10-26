@@ -14,6 +14,8 @@ cmake-build-*/
 # --- LaTeX build artifacts ---
 *.aux
 *.log
+# keep the serial logs from the test runs
+!firmware/**/logs/*.log
 *.out
 *.toc
 *.lof

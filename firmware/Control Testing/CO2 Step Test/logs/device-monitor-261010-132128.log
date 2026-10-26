@@ -1,0 +1,852 @@
+00:00:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    577 ppm   20.5 C   80.6 %RH
+00:00:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    563 ppm   20.6 C   80.5 %RH
+00:00:08 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    563 ppm   20.6 C   80.5 %RH
+00:00:09 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    526 ppm   20.6 C   80.5 %RH
+00:00:10 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    526 ppm   20.6 C   80.5 %RH
+00:00:11 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    511 ppm   20.6 C   80.4 %RH
+00:00:12 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    511 ppm   20.6 C   80.4 %RH
+
+>> ===== BASELINE =====
+00:00:13 | BASELINE 00:00:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    495 ppm   20.6 C   80.5 %RH
+00:00:14 | BASELINE 00:00:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    495 ppm   20.6 C   80.5 %RH
+00:00:15 | BASELINE 00:00:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    487 ppm   20.6 C   80.5 %RH
+00:00:16 | BASELINE 00:00:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    487 ppm   20.6 C   80.5 %RH
+00:00:17 | BASELINE 00:00:04 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    486 ppm   20.6 C   80.5 %RH
+00:00:18 | BASELINE 00:00:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    486 ppm   20.6 C   80.5 %RH
+00:00:19 | BASELINE 00:00:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    486 ppm   20.6 C   80.5 %RH
+00:00:20 | BASELINE 00:00:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    474 ppm   20.7 C   80.5 %RH
+00:00:21 | BASELINE 00:00:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    474 ppm   20.7 C   80.5 %RH
+>> Busy. Only c (close) or x (stop) work right now.
+00:00:22 | BASELINE 00:00:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    471 ppm   20.7 C   80.6 %RH
+00:00:23 | BASELINE 00:00:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    471 ppm   20.7 C   80.6 %RH
+00:00:24 | BASELINE 00:00:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    467 ppm   20.8 C   80.7 %RH
+00:00:25 | BASELINE 00:00:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    467 ppm   20.8 C   80.7 %RH
+00:00:26 | BASELINE 00:00:13 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    462 ppm   20.8 C   80.7 %RH
+00:00:27 | BASELINE 00:00:14 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    462 ppm   20.8 C   80.7 %RH
+00:00:28 | BASELINE 00:00:15 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    456 ppm   20.8 C   80.7 %RH
+00:00:29 | BASELINE 00:00:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    456 ppm   20.8 C   80.7 %RH
+00:00:30 | BASELINE 00:00:17 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    452 ppm   20.8 C   80.7 %RH
+00:00:31 | BASELINE 00:00:18 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    452 ppm   20.8 C   80.7 %RH
+00:00:32 | BASELINE 00:00:19 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    447 ppm   20.8 C   80.7 %RH
+00:00:33 | BASELINE 00:00:20 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    447 ppm   20.8 C   80.7 %RH
+00:00:34 | BASELINE 00:00:21 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    439 ppm   20.9 C   80.6 %RH
+>> Valve CLOSED
+00:00:35 | BASELINE 00:00:22 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    439 ppm   20.9 C   80.6 %RH
+00:00:36 | BASELINE 00:00:23 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    439 ppm   20.9 C   80.6 %RH
+00:00:37 | BASELINE 00:00:24 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    433 ppm   20.9 C   80.6 %RH
+00:00:38 | BASELINE 00:00:25 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    433 ppm   20.9 C   80.6 %RH
+00:00:39 | BASELINE 00:00:26 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    426 ppm   20.9 C   80.6 %RH
+00:00:40 | BASELINE 00:00:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    426 ppm   20.9 C   80.6 %RH
+00:00:41 | BASELINE 00:00:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    419 ppm   20.9 C   80.6 %RH
+00:00:42 | BASELINE 00:00:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    419 ppm   20.9 C   80.6 %RH
+00:00:43 | BASELINE 00:00:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    416 ppm   21.0 C   80.5 %RH
+00:00:44 | BASELINE 00:00:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    416 ppm   21.0 C   80.5 %RH
+00:00:45 | BASELINE 00:00:32 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    412 ppm   21.0 C   80.4 %RH
+00:00:46 | BASELINE 00:00:33 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    412 ppm   21.0 C   80.4 %RH
+00:00:47 | BASELINE 00:00:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    413 ppm   21.0 C   80.4 %RH
+00:00:48 | BASELINE 00:00:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    413 ppm   21.0 C   80.4 %RH
+00:00:49 | BASELINE 00:00:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    410 ppm   21.0 C   80.3 %RH
+00:00:50 | BASELINE 00:00:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    410 ppm   21.0 C   80.3 %RH
+00:00:51 | BASELINE 00:00:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    410 ppm   21.0 C   80.3 %RH
+00:00:52 | BASELINE 00:00:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.1 C   80.3 %RH
+00:00:53 | BASELINE 00:00:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.1 C   80.3 %RH
+00:00:54 | BASELINE 00:00:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.1 C   80.4 %RH
+00:00:55 | BASELINE 00:00:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.1 C   80.4 %RH
+00:00:56 | BASELINE 00:00:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    409 ppm   21.1 C   80.2 %RH
+00:00:57 | BASELINE 00:00:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    409 ppm   21.1 C   80.2 %RH
+00:00:58 | BASELINE 00:00:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.1 C   80.1 %RH
+00:00:59 | BASELINE 00:00:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.1 C   80.1 %RH
+00:01:00 | BASELINE 00:00:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   80.0 %RH
+00:01:01 | BASELINE 00:00:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   80.0 %RH
+00:01:02 | BASELINE 00:00:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   79.9 %RH
+00:01:03 | BASELINE 00:00:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   79.9 %RH
+00:01:04 | BASELINE 00:00:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   79.9 %RH
+00:01:05 | BASELINE 00:00:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   79.9 %RH
+00:01:06 | BASELINE 00:00:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.1 C   79.9 %RH
+00:01:07 | BASELINE 00:00:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.2 C   79.9 %RH
+00:01:08 | BASELINE 00:00:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.2 C   79.9 %RH
+00:01:09 | BASELINE 00:00:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:10 | BASELINE 00:00:57 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:11 | BASELINE 00:00:58 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:12 | BASELINE 00:00:59 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:13 | BASELINE 00:01:00 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:14 | BASELINE 00:01:01 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:15 | BASELINE 00:01:02 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:16 | BASELINE 00:01:03 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    407 ppm   21.2 C   79.8 %RH
+00:01:17 | BASELINE 00:01:04 | valve closed | pulses   0 | ExplorIR    800 ppm (0.08 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:18 | BASELINE 00:01:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:19 | BASELINE 00:01:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:20 | BASELINE 00:01:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:21 | BASELINE 00:01:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:22 | BASELINE 00:01:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:23 | BASELINE 00:01:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.8 %RH
+00:01:24 | BASELINE 00:01:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.7 %RH
+00:01:25 | BASELINE 00:01:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.7 %RH
+00:01:26 | BASELINE 00:01:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.7 %RH
+00:01:27 | BASELINE 00:01:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.3 C   79.7 %RH
+00:01:28 | BASELINE 00:01:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.3 C   79.7 %RH
+00:01:29 | BASELINE 00:01:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.3 C   79.7 %RH
+00:01:30 | BASELINE 00:01:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:31 | BASELINE 00:01:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:32 | BASELINE 00:01:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:33 | BASELINE 00:01:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:34 | BASELINE 00:01:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.4 C   79.7 %RH
+00:01:35 | BASELINE 00:01:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.4 C   79.7 %RH
+00:01:36 | BASELINE 00:01:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.4 C   79.7 %RH
+00:01:37 | BASELINE 00:01:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:38 | BASELINE 00:01:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:39 | BASELINE 00:01:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:40 | BASELINE 00:01:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.4 C   79.7 %RH
+00:01:41 | BASELINE 00:01:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.4 C   79.6 %RH
+00:01:42 | BASELINE 00:01:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.4 C   79.6 %RH
+00:01:43 | BASELINE 00:01:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.5 C   79.5 %RH
+00:01:44 | BASELINE 00:01:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.5 C   79.5 %RH
+00:01:45 | BASELINE 00:01:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.5 C   79.3 %RH
+00:01:46 | BASELINE 00:01:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    408 ppm   21.5 C   79.3 %RH
+00:01:47 | BASELINE 00:01:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.2 %RH
+00:01:48 | BASELINE 00:01:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.2 %RH
+00:01:49 | BASELINE 00:01:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.1 %RH
+00:01:50 | BASELINE 00:01:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.1 %RH
+00:01:51 | BASELINE 00:01:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.1 %RH
+00:01:52 | BASELINE 00:01:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.1 %RH
+00:01:53 | BASELINE 00:01:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.1 %RH
+00:01:54 | BASELINE 00:01:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.0 %RH
+00:01:55 | BASELINE 00:01:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   79.0 %RH
+00:01:56 | BASELINE 00:01:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   78.9 %RH
+00:01:57 | BASELINE 00:01:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   78.9 %RH
+00:01:58 | BASELINE 00:01:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   78.8 %RH
+00:01:59 | BASELINE 00:01:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.5 C   78.8 %RH
+00:02:00 | BASELINE 00:01:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.9 %RH
+00:02:01 | BASELINE 00:01:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.9 %RH
+00:02:02 | BASELINE 00:01:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.6 C   78.9 %RH
+00:02:03 | BASELINE 00:01:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.6 C   78.9 %RH
+00:02:04 | BASELINE 00:01:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:05 | BASELINE 00:01:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:06 | BASELINE 00:01:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:07 | BASELINE 00:01:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:08 | BASELINE 00:01:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:09 | BASELINE 00:01:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:10 | BASELINE 00:01:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:11 | BASELINE 00:01:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.9 %RH
+00:02:12 | BASELINE 00:01:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.9 %RH
+00:02:13 | BASELINE 00:02:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:14 | BASELINE 00:02:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:15 | BASELINE 00:02:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:16 | BASELINE 00:02:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.6 C   78.8 %RH
+00:02:17 | BASELINE 00:02:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.7 C   78.8 %RH
+00:02:18 | BASELINE 00:02:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    407 ppm   21.7 C   78.8 %RH
+00:02:19 | BASELINE 00:02:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.8 %RH
+00:02:20 | BASELINE 00:02:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.8 %RH
+00:02:21 | BASELINE 00:02:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.8 %RH
+00:02:22 | BASELINE 00:02:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.8 %RH
+00:02:23 | BASELINE 00:02:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.8 %RH
+00:02:24 | BASELINE 00:02:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:25 | BASELINE 00:02:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:26 | BASELINE 00:02:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:27 | BASELINE 00:02:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:28 | BASELINE 00:02:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:29 | BASELINE 00:02:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:30 | BASELINE 00:02:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:31 | BASELINE 00:02:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    406 ppm   21.7 C   78.7 %RH
+00:02:32 | BASELINE 00:02:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.7 C   78.6 %RH
+00:02:33 | BASELINE 00:02:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.7 C   78.6 %RH
+00:02:34 | BASELINE 00:02:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.6 %RH
+00:02:35 | BASELINE 00:02:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.6 %RH
+00:02:36 | BASELINE 00:02:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.6 %RH
+00:02:37 | BASELINE 00:02:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.6 %RH
+00:02:38 | BASELINE 00:02:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.6 %RH
+00:02:39 | BASELINE 00:02:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.5 %RH
+00:02:40 | BASELINE 00:02:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.5 %RH
+00:02:41 | BASELINE 00:02:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.5 %RH
+00:02:42 | BASELINE 00:02:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.5 %RH
+00:02:43 | BASELINE 00:02:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.3 %RH
+00:02:44 | BASELINE 00:02:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.3 %RH
+00:02:45 | BASELINE 00:02:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.0 %RH
+00:02:46 | BASELINE 00:02:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    405 ppm   21.8 C   78.0 %RH
+00:02:47 | BASELINE 00:02:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:48 | BASELINE 00:02:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:49 | BASELINE 00:02:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   77.9 %RH
+00:02:50 | BASELINE 00:02:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   77.9 %RH
+00:02:51 | BASELINE 00:02:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:52 | BASELINE 00:02:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:53 | BASELINE 00:02:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:54 | BASELINE 00:02:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:55 | BASELINE 00:02:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:56 | BASELINE 00:02:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:57 | BASELINE 00:02:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.8 C   78.0 %RH
+00:02:58 | BASELINE 00:02:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.8 C   78.0 %RH
+00:02:59 | BASELINE 00:02:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.8 C   78.0 %RH
+00:03:00 | BASELINE 00:02:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   78.0 %RH
+00:03:01 | BASELINE 00:02:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   78.0 %RH
+00:03:02 | BASELINE 00:02:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.9 C   78.0 %RH
+00:03:03 | BASELINE 00:02:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.9 C   78.0 %RH
+00:03:04 | BASELINE 00:02:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.9 C   77.9 %RH
+00:03:05 | BASELINE 00:02:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    404 ppm   21.9 C   77.9 %RH
+00:03:06 | BASELINE 00:02:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:07 | BASELINE 00:02:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:08 | BASELINE 00:02:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:09 | BASELINE 00:02:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:10 | BASELINE 00:02:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:11 | BASELINE 00:02:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:12 | BASELINE 00:02:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:13 | BASELINE 00:03:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:14 | BASELINE 00:03:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:15 | BASELINE 00:03:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:16 | BASELINE 00:03:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   21.9 C   77.9 %RH
+00:03:17 | BASELINE 00:03:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:18 | BASELINE 00:03:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:19 | BASELINE 00:03:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:20 | BASELINE 00:03:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:21 | BASELINE 00:03:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:22 | BASELINE 00:03:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:23 | BASELINE 00:03:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:24 | BASELINE 00:03:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:25 | BASELINE 00:03:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    403 ppm   22.0 C   77.9 %RH
+00:03:26 | BASELINE 00:03:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.9 %RH
+00:03:27 | BASELINE 00:03:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.9 %RH
+00:03:28 | BASELINE 00:03:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.9 %RH
+00:03:29 | BASELINE 00:03:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.9 %RH
+00:03:30 | BASELINE 00:03:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.8 %RH
+00:03:31 | BASELINE 00:03:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    402 ppm   22.0 C   77.8 %RH
+00:03:32 | BASELINE 00:03:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:33 | BASELINE 00:03:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:34 | BASELINE 00:03:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:35 | BASELINE 00:03:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:36 | BASELINE 00:03:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:37 | BASELINE 00:03:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:38 | BASELINE 00:03:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.9 %RH
+00:03:39 | BASELINE 00:03:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.8 %RH
+00:03:40 | BASELINE 00:03:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    401 ppm   22.0 C   77.8 %RH
+00:03:41 | BASELINE 00:03:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.6 %RH
+00:03:42 | BASELINE 00:03:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.6 %RH
+00:03:43 | BASELINE 00:03:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.4 %RH
+00:03:44 | BASELINE 00:03:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.4 %RH
+00:03:45 | BASELINE 00:03:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.2 %RH
+00:03:46 | BASELINE 00:03:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.0 C   77.2 %RH
+00:03:47 | BASELINE 00:03:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.1 C   77.2 %RH
+00:03:48 | BASELINE 00:03:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    400 ppm   22.1 C   77.2 %RH
+00:03:49 | BASELINE 00:03:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.2 %RH
+00:03:50 | BASELINE 00:03:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.2 %RH
+00:03:51 | BASELINE 00:03:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.1 %RH
+00:03:52 | BASELINE 00:03:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.1 %RH
+00:03:53 | BASELINE 00:03:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.1 %RH
+00:03:54 | BASELINE 00:03:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.2 %RH
+00:03:55 | BASELINE 00:03:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.2 %RH
+00:03:56 | BASELINE 00:03:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.0 %RH
+00:03:57 | BASELINE 00:03:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    399 ppm   22.1 C   77.0 %RH
+00:03:58 | BASELINE 00:03:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    398 ppm   22.1 C   76.7 %RH
+00:03:59 | BASELINE 00:03:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    398 ppm   22.1 C   76.7 %RH
+00:04:00 | BASELINE 00:03:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    398 ppm   22.1 C   76.4 %RH
+00:04:01 | BASELINE 00:03:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    398 ppm   22.1 C   76.4 %RH
+00:04:02 | BASELINE 00:03:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    397 ppm   22.1 C   76.0 %RH
+00:04:03 | BASELINE 00:03:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    397 ppm   22.1 C   76.0 %RH
+00:04:04 | BASELINE 00:03:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    397 ppm   22.1 C   75.9 %RH
+00:04:05 | BASELINE 00:03:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    397 ppm   22.1 C   75.9 %RH
+00:04:06 | BASELINE 00:03:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    396 ppm   22.1 C   76.0 %RH
+00:04:07 | BASELINE 00:03:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    396 ppm   22.1 C   76.0 %RH
+00:04:08 | BASELINE 00:03:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    396 ppm   22.1 C   76.1 %RH
+00:04:09 | BASELINE 00:03:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    396 ppm   22.1 C   76.1 %RH
+00:04:10 | BASELINE 00:03:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    396 ppm   22.1 C   76.1 %RH
+00:04:11 | BASELINE 00:03:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    395 ppm   22.2 C   76.2 %RH
+00:04:12 | BASELINE 00:03:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    395 ppm   22.2 C   76.2 %RH
+00:04:13 | BASELINE 00:04:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    395 ppm   22.2 C   76.3 %RH
+00:04:14 | BASELINE 00:04:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    395 ppm   22.2 C   76.3 %RH
+00:04:15 | BASELINE 00:04:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    394 ppm   22.2 C   76.4 %RH
+00:04:16 | BASELINE 00:04:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    394 ppm   22.2 C   76.4 %RH
+00:04:17 | BASELINE 00:04:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    393 ppm   22.2 C   76.5 %RH
+00:04:18 | BASELINE 00:04:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    393 ppm   22.2 C   76.5 %RH
+00:04:19 | BASELINE 00:04:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    392 ppm   22.2 C   76.4 %RH
+00:04:20 | BASELINE 00:04:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    392 ppm   22.2 C   76.4 %RH
+00:04:21 | BASELINE 00:04:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    391 ppm   22.2 C   76.4 %RH
+00:04:22 | BASELINE 00:04:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    391 ppm   22.2 C   76.4 %RH
+00:04:23 | BASELINE 00:04:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    389 ppm   22.2 C   76.4 %RH
+00:04:24 | BASELINE 00:04:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    389 ppm   22.2 C   76.4 %RH
+00:04:25 | BASELINE 00:04:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    389 ppm   22.2 C   76.4 %RH
+00:04:26 | BASELINE 00:04:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    389 ppm   22.2 C   76.4 %RH
+00:04:27 | BASELINE 00:04:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    389 ppm   22.2 C   76.4 %RH
+00:04:28 | BASELINE 00:04:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    387 ppm   22.2 C   76.4 %RH
+00:04:29 | BASELINE 00:04:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    387 ppm   22.2 C   76.4 %RH
+00:04:30 | BASELINE 00:04:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    387 ppm   22.2 C   76.1 %RH
+00:04:31 | BASELINE 00:04:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    387 ppm   22.2 C   76.1 %RH
+00:04:32 | BASELINE 00:04:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    385 ppm   22.2 C   75.7 %RH
+00:04:33 | BASELINE 00:04:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    385 ppm   22.2 C   75.7 %RH
+00:04:34 | BASELINE 00:04:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    385 ppm   22.2 C   75.4 %RH
+00:04:35 | BASELINE 00:04:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    385 ppm   22.2 C   75.4 %RH
+00:04:36 | BASELINE 00:04:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    384 ppm   22.2 C   75.2 %RH
+00:04:37 | BASELINE 00:04:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    384 ppm   22.2 C   75.2 %RH
+00:04:38 | BASELINE 00:04:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    383 ppm   22.2 C   74.4 %RH
+00:04:39 | BASELINE 00:04:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    383 ppm   22.2 C   74.4 %RH
+00:04:40 | BASELINE 00:04:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    383 ppm   22.2 C   74.4 %RH
+00:04:41 | BASELINE 00:04:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.2 C   73.8 %RH
+00:04:42 | BASELINE 00:04:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.2 C   73.8 %RH
+00:04:43 | BASELINE 00:04:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.3 C   73.8 %RH
+00:04:44 | BASELINE 00:04:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.3 C   73.8 %RH
+00:04:45 | BASELINE 00:04:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    383 ppm   22.2 C   73.7 %RH
+00:04:46 | BASELINE 00:04:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    383 ppm   22.2 C   73.7 %RH
+00:04:47 | BASELINE 00:04:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.3 C   73.8 %RH
+00:04:48 | BASELINE 00:04:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    382 ppm   22.3 C   73.8 %RH
+00:04:49 | BASELINE 00:04:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    381 ppm   22.2 C   74.0 %RH
+00:04:50 | BASELINE 00:04:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    381 ppm   22.2 C   74.0 %RH
+00:04:51 | BASELINE 00:04:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    380 ppm   22.3 C   74.3 %RH
+00:04:52 | BASELINE 00:04:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    380 ppm   22.3 C   74.3 %RH
+00:04:53 | BASELINE 00:04:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.5 %RH
+00:04:54 | BASELINE 00:04:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.5 %RH
+00:04:55 | BASELINE 00:04:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.5 %RH
+00:04:56 | BASELINE 00:04:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.8 %RH
+00:04:57 | BASELINE 00:04:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.8 %RH
+00:04:58 | BASELINE 00:04:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.9 %RH
+00:04:59 | BASELINE 00:04:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    379 ppm   22.3 C   74.9 %RH
+00:05:00 | BASELINE 00:04:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.0 %RH
+00:05:01 | BASELINE 00:04:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.0 %RH
+00:05:02 | BASELINE 00:04:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.1 %RH
+00:05:03 | BASELINE 00:04:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.1 %RH
+00:05:04 | BASELINE 00:04:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.2 %RH
+00:05:05 | BASELINE 00:04:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.2 %RH
+00:05:06 | BASELINE 00:04:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.3 %RH
+00:05:07 | BASELINE 00:04:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    378 ppm   22.3 C   75.3 %RH
+00:05:08 | BASELINE 00:04:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    377 ppm   22.3 C   75.4 %RH
+00:05:09 | BASELINE 00:04:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    377 ppm   22.3 C   75.4 %RH
+00:05:10 | BASELINE 00:04:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    377 ppm   22.3 C   75.4 %RH
+00:05:11 | BASELINE 00:04:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    376 ppm   22.3 C   75.5 %RH
+00:05:12 | BASELINE 00:04:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    376 ppm   22.3 C   75.5 %RH
+00:05:13 | BASELINE 00:05:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.3 C   75.6 %RH
+00:05:14 | BASELINE 00:05:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.3 C   75.6 %RH
+00:05:15 | BASELINE 00:05:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.4 C   75.7 %RH
+00:05:16 | BASELINE 00:05:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.4 C   75.7 %RH
+00:05:17 | BASELINE 00:05:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.3 C   75.6 %RH
+00:05:18 | BASELINE 00:05:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    375 ppm   22.3 C   75.6 %RH
+00:05:19 | BASELINE 00:05:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.4 %RH
+00:05:20 | BASELINE 00:05:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.4 %RH
+00:05:21 | BASELINE 00:05:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.2 %RH
+00:05:22 | BASELINE 00:05:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.2 %RH
+00:05:23 | BASELINE 00:05:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.0 %RH
+00:05:24 | BASELINE 00:05:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.0 %RH
+00:05:25 | BASELINE 00:05:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    374 ppm   22.4 C   75.0 %RH
+00:05:26 | BASELINE 00:05:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    373 ppm   22.4 C   74.8 %RH
+00:05:27 | BASELINE 00:05:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    373 ppm   22.4 C   74.8 %RH
+00:05:28 | BASELINE 00:05:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    373 ppm   22.4 C   74.8 %RH
+00:05:29 | BASELINE 00:05:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    373 ppm   22.4 C   74.8 %RH
+00:05:30 | BASELINE 00:05:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    372 ppm   22.4 C   74.9 %RH
+00:05:31 | BASELINE 00:05:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    372 ppm   22.4 C   74.9 %RH
+00:05:32 | BASELINE 00:05:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    372 ppm   22.4 C   74.9 %RH
+00:05:33 | BASELINE 00:05:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    372 ppm   22.4 C   74.9 %RH
+00:05:34 | BASELINE 00:05:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    371 ppm   22.4 C   74.9 %RH
+00:05:35 | BASELINE 00:05:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    371 ppm   22.4 C   74.9 %RH
+00:05:36 | BASELINE 00:05:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    371 ppm   22.4 C   75.0 %RH
+00:05:37 | BASELINE 00:05:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    371 ppm   22.4 C   75.0 %RH
+00:05:38 | BASELINE 00:05:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    370 ppm   22.4 C   75.0 %RH
+00:05:39 | BASELINE 00:05:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    370 ppm   22.4 C   75.0 %RH
+00:05:40 | BASELINE 00:05:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    370 ppm   22.4 C   75.0 %RH
+00:05:41 | BASELINE 00:05:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    370 ppm   22.4 C   75.0 %RH
+00:05:42 | BASELINE 00:05:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    370 ppm   22.4 C   75.0 %RH
+00:05:43 | BASELINE 00:05:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.0 %RH
+00:05:44 | BASELINE 00:05:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.0 %RH
+00:05:45 | BASELINE 00:05:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.1 %RH
+00:05:46 | BASELINE 00:05:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.1 %RH
+00:05:47 | BASELINE 00:05:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.2 %RH
+00:05:48 | BASELINE 00:05:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    369 ppm   22.4 C   75.2 %RH
+00:05:49 | BASELINE 00:05:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.4 C   75.3 %RH
+00:05:50 | BASELINE 00:05:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.4 C   75.3 %RH
+00:05:51 | BASELINE 00:05:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.4 C   75.3 %RH
+00:05:52 | BASELINE 00:05:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.4 C   75.3 %RH
+00:05:53 | BASELINE 00:05:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:05:54 | BASELINE 00:05:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:05:55 | BASELINE 00:05:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:05:56 | BASELINE 00:05:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:05:57 | BASELINE 00:05:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:05:58 | BASELINE 00:05:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.4 %RH
+00:05:59 | BASELINE 00:05:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.4 %RH
+00:06:00 | BASELINE 00:05:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.4 %RH
+00:06:01 | BASELINE 00:05:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.4 %RH
+00:06:02 | BASELINE 00:05:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:06:03 | BASELINE 00:05:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:06:04 | BASELINE 00:05:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:06:05 | BASELINE 00:05:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    368 ppm   22.5 C   75.4 %RH
+00:06:06 | BASELINE 00:05:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.5 %RH
+00:06:07 | BASELINE 00:05:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.5 %RH
+00:06:08 | BASELINE 00:05:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.5 %RH
+00:06:09 | BASELINE 00:05:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.5 %RH
+00:06:10 | BASELINE 00:05:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    367 ppm   22.5 C   75.5 %RH
+00:06:11 | BASELINE 00:05:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.6 %RH
+00:06:12 | BASELINE 00:05:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.6 %RH
+00:06:13 | BASELINE 00:06:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.6 %RH
+00:06:14 | BASELINE 00:06:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.6 %RH
+00:06:15 | BASELINE 00:06:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.5 %RH
+00:06:16 | BASELINE 00:06:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    366 ppm   22.5 C   75.5 %RH
+00:06:17 | BASELINE 00:06:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    365 ppm   22.5 C   75.2 %RH
+00:06:18 | BASELINE 00:06:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    365 ppm   22.5 C   75.2 %RH
+00:06:19 | BASELINE 00:06:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    365 ppm   22.5 C   74.9 %RH
+00:06:20 | BASELINE 00:06:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    365 ppm   22.5 C   74.9 %RH
+00:06:21 | BASELINE 00:06:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    364 ppm   22.5 C   74.5 %RH
+00:06:22 | BASELINE 00:06:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    364 ppm   22.5 C   74.5 %RH
+00:06:23 | BASELINE 00:06:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    364 ppm   22.5 C   74.1 %RH
+00:06:24 | BASELINE 00:06:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    364 ppm   22.5 C   74.1 %RH
+00:06:25 | BASELINE 00:06:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    364 ppm   22.5 C   74.1 %RH
+00:06:26 | BASELINE 00:06:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.6 C   73.3 %RH
+00:06:27 | BASELINE 00:06:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.6 C   73.3 %RH
+00:06:28 | BASELINE 00:06:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.5 C   72.6 %RH
+00:06:29 | BASELINE 00:06:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.5 C   72.6 %RH
+00:06:30 | BASELINE 00:06:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.5 C   71.9 %RH
+00:06:31 | BASELINE 00:06:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    363 ppm   22.5 C   71.9 %RH
+00:06:32 | BASELINE 00:06:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.5 C   71.6 %RH
+00:06:33 | BASELINE 00:06:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.5 C   71.6 %RH
+00:06:34 | BASELINE 00:06:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.5 C   71.5 %RH
+00:06:35 | BASELINE 00:06:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.5 C   71.5 %RH
+00:06:36 | BASELINE 00:06:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    362 ppm   22.5 C   71.3 %RH
+00:06:37 | BASELINE 00:06:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    362 ppm   22.5 C   71.3 %RH
+00:06:38 | BASELINE 00:06:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    362 ppm   22.6 C   71.6 %RH
+00:06:39 | BASELINE 00:06:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    362 ppm   22.6 C   71.6 %RH
+00:06:40 | BASELINE 00:06:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.6 C   71.8 %RH
+00:06:41 | BASELINE 00:06:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.6 C   71.8 %RH
+00:06:42 | BASELINE 00:06:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.6 C   71.8 %RH
+00:06:43 | BASELINE 00:06:30 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.6 C   71.6 %RH
+00:06:44 | BASELINE 00:06:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    361 ppm   22.6 C   71.6 %RH
+00:06:45 | BASELINE 00:06:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    360 ppm   22.5 C   71.3 %RH
+00:06:46 | BASELINE 00:06:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    360 ppm   22.5 C   71.3 %RH
+00:06:47 | BASELINE 00:06:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.8 %RH
+00:06:48 | BASELINE 00:06:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.8 %RH
+00:06:49 | BASELINE 00:06:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.5 C   70.4 %RH
+00:06:50 | BASELINE 00:06:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.5 C   70.4 %RH
+00:06:51 | BASELINE 00:06:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.5 %RH
+00:06:52 | BASELINE 00:06:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.5 %RH
+00:06:53 | BASELINE 00:06:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.8 %RH
+00:06:54 | BASELINE 00:06:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    359 ppm   22.6 C   70.8 %RH
+00:06:55 | BASELINE 00:06:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    358 ppm   22.6 C   71.4 %RH
+00:06:56 | BASELINE 00:06:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    358 ppm   22.6 C   71.4 %RH
+00:06:57 | BASELINE 00:06:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    358 ppm   22.6 C   71.4 %RH
+00:06:58 | BASELINE 00:06:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    358 ppm   22.6 C   71.8 %RH
+00:06:59 | BASELINE 00:06:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    358 ppm   22.6 C   71.8 %RH
+00:07:00 | BASELINE 00:06:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.2 %RH
+00:07:01 | BASELINE 00:06:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.2 %RH
+00:07:02 | BASELINE 00:06:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.5 %RH
+00:07:03 | BASELINE 00:06:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.5 %RH
+00:07:04 | BASELINE 00:06:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.8 %RH
+00:07:05 | BASELINE 00:06:52 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    357 ppm   22.6 C   72.8 %RH
+00:07:06 | BASELINE 00:06:53 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   72.9 %RH
+00:07:07 | BASELINE 00:06:54 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   72.9 %RH
+00:07:08 | BASELINE 00:06:55 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.0 %RH
+00:07:09 | BASELINE 00:06:56 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.0 %RH
+00:07:10 | BASELINE 00:06:57 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.0 %RH
+00:07:11 | BASELINE 00:06:58 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.0 %RH
+00:07:12 | BASELINE 00:06:59 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.0 %RH
+00:07:13 | BASELINE 00:07:00 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.2 %RH
+00:07:14 | BASELINE 00:07:01 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.2 %RH
+00:07:15 | BASELINE 00:07:02 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.3 %RH
+00:07:16 | BASELINE 00:07:03 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    356 ppm   22.6 C   73.3 %RH
+00:07:17 | BASELINE 00:07:04 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    355 ppm   22.6 C   73.3 %RH
+00:07:18 | BASELINE 00:07:05 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    355 ppm   22.6 C   73.3 %RH
+00:07:19 | BASELINE 00:07:06 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    354 ppm   22.6 C   73.3 %RH
+00:07:20 | BASELINE 00:07:07 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    354 ppm   22.6 C   73.3 %RH
+00:07:21 | BASELINE 00:07:08 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    354 ppm   22.6 C   73.4 %RH
+00:07:22 | BASELINE 00:07:09 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    354 ppm   22.6 C   73.4 %RH
+00:07:23 | BASELINE 00:07:10 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    353 ppm   22.6 C   73.4 %RH
+00:07:24 | BASELINE 00:07:11 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    353 ppm   22.6 C   73.4 %RH
+00:07:25 | BASELINE 00:07:12 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    353 ppm   22.7 C   73.5 %RH
+00:07:26 | BASELINE 00:07:13 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    353 ppm   22.7 C   73.5 %RH
+00:07:27 | BASELINE 00:07:14 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    353 ppm   22.7 C   73.5 %RH
+00:07:28 | BASELINE 00:07:15 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    352 ppm   22.7 C   73.6 %RH
+00:07:29 | BASELINE 00:07:16 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    352 ppm   22.7 C   73.6 %RH
+00:07:30 | BASELINE 00:07:17 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    351 ppm   22.7 C   73.7 %RH
+00:07:31 | BASELINE 00:07:18 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    351 ppm   22.7 C   73.7 %RH
+00:07:32 | BASELINE 00:07:19 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    351 ppm   22.7 C   73.8 %RH
+00:07:33 | BASELINE 00:07:20 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    351 ppm   22.7 C   73.8 %RH
+00:07:34 | BASELINE 00:07:21 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:35 | BASELINE 00:07:22 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:36 | BASELINE 00:07:23 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:37 | BASELINE 00:07:24 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:38 | BASELINE 00:07:25 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:39 | BASELINE 00:07:26 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.8 %RH
+00:07:40 | BASELINE 00:07:27 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.9 %RH
+00:07:41 | BASELINE 00:07:28 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.9 %RH
+00:07:42 | BASELINE 00:07:29 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    350 ppm   22.7 C   73.9 %RH
+00:07:43 | BASELINE 00:07:30 | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    349 ppm   22.7 C   74.0 %RH
+00:07:44 | BASELINE 00:07:31 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    349 ppm   22.7 C   74.0 %RH
+00:07:45 | BASELINE 00:07:32 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.1 %RH
+00:07:46 | BASELINE 00:07:33 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.1 %RH
+00:07:47 | BASELINE 00:07:34 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.1 %RH
+00:07:48 | BASELINE 00:07:35 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.1 %RH
+00:07:49 | BASELINE 00:07:36 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.2 %RH
+00:07:50 | BASELINE 00:07:37 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.2 %RH
+00:07:51 | BASELINE 00:07:38 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.2 %RH
+00:07:52 | BASELINE 00:07:39 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.2 %RH
+00:07:53 | BASELINE 00:07:40 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.3 %RH
+00:07:54 | BASELINE 00:07:41 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.3 %RH
+00:07:55 | BASELINE 00:07:42 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.3 %RH
+00:07:56 | BASELINE 00:07:43 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.3 %RH
+00:07:57 | BASELINE 00:07:44 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    348 ppm   22.7 C   74.3 %RH
+00:07:58 | BASELINE 00:07:45 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.3 %RH
+00:07:59 | BASELINE 00:07:46 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.3 %RH
+00:08:00 | BASELINE 00:07:47 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.3 %RH
+00:08:01 | BASELINE 00:07:48 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.3 %RH
+00:08:02 | BASELINE 00:07:49 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.4 %RH
+00:08:03 | BASELINE 00:07:50 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.4 %RH
+00:08:04 | BASELINE 00:07:51 | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.4 %RH
+>> STOPPED: you pressed x
+>> Valve closed. Reset the board to continue.
+00:08:05 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    347 ppm   22.7 C   74.4 %RH
+00:08:06 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.7 C   74.5 %RH
+00:08:07 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.7 C   74.5 %RH
+>> Locked after stop. Reset the board.
+00:08:08 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.7 C   74.5 %RH
+00:08:09 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.7 C   74.5 %RH
+00:08:10 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.8 C   74.4 %RH
+00:08:11 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.8 C   74.4 %RH
+00:08:12 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.8 C   74.4 %RH
+00:08:13 | STOPPED           | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    346 ppm   22.8 C   74.4 %RH
+
+==========================================
+ CO2 STEP TEST
+==========================================
+ ExplorIR : NOT FOUND (will keep retrying)
+ SCD30    : OK
+ Pulse    : 250 ms every 60 s
+ Phases   : baseline 10 min, step 150 min, decay 120 min
+ Safety   : stops above 3 % CO2
+------------------------------------------
+ o = open   c = close   p = pulse
+ s = start  x = emergency stop
+==========================================
+
+00:00:02 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    346 ppm   22.7 C   74.5 %RH
+00:00:03 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    346 ppm   22.7 C   74.5 %RH
+00:00:04 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    346 ppm   22.7 C   74.5 %RH
+>> ExplorIR connected
+00:00:05 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    344 ppm   22.7 C   74.6 %RH
+00:00:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    344 ppm   22.7 C   74.6 %RH
+00:00:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    344 ppm   22.7 C   74.6 %RH
+00:00:08 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.6 %RH
+00:00:09 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.6 %RH
+00:00:10 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    344 ppm   22.8 C   74.7 %RH
+00:00:11 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    344 ppm   22.8 C   74.7 %RH
+00:00:12 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:13 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:14 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:15 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:16 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:17 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:18 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:19 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    343 ppm   22.8 C   74.7 %RH
+00:00:20 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:21 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:22 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:23 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:24 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:25 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:26 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.7 %RH
+00:00:27 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.8 %RH
+00:00:28 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    342 ppm   22.8 C   74.8 %RH
+00:00:29 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    341 ppm   22.8 C   74.7 %RH
+00:00:30 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    341 ppm   22.8 C   74.7 %RH
+00:00:31 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    341 ppm   22.8 C   74.5 %RH
+00:00:32 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    341 ppm   22.8 C   74.5 %RH
+00:00:33 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    340 ppm   22.8 C   74.4 %RH
+00:00:34 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    340 ppm   22.8 C   74.4 %RH
+00:00:35 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    340 ppm   22.8 C   74.4 %RH
+00:00:36 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    340 ppm   22.8 C   74.4 %RH
+00:00:37 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    340 ppm   22.8 C   74.4 %RH
+00:00:38 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:39 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:40 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:41 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:42 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.4 %RH
+00:00:43 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.4 %RH
+00:00:44 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:45 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.3 %RH
+00:00:46 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.4 %RH
+00:00:47 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.4 %RH
+00:00:48 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.6 %RH
+00:00:49 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.6 %RH
+00:00:50 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.6 %RH
+00:00:51 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.6 %RH
+00:00:52 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.6 %RH
+00:00:53 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.7 %RH
+00:00:54 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.7 %RH
+00:00:55 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.7 %RH
+00:00:56 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    339 ppm   22.8 C   74.7 %RH
+00:00:57 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.8 C   74.5 %RH
+00:00:58 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.8 C   74.5 %RH
+00:00:59 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:00 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:01 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:02 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:03 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:04 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:05 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    338 ppm   22.9 C   74.5 %RH
+00:01:08 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:09 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:10 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:11 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:12 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:13 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.5 %RH
+00:01:14 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.3 %RH
+00:01:15 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.3 %RH
+00:01:16 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.3 %RH
+00:01:17 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.3 %RH
+00:01:18 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.2 %RH
+00:01:19 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.2 %RH
+00:01:20 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.1 %RH
+00:01:21 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.1 %RH
+00:01:22 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.1 %RH
+00:01:23 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.1 %RH
+00:01:24 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    337 ppm   22.9 C   74.1 %RH
+00:01:25 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:26 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:27 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:28 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:29 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:30 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:31 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:32 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:33 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:34 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:35 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:36 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:37 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.1 %RH
+00:01:38 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.1 %RH
+00:01:39 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.1 %RH
+00:01:40 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+00:01:41 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   74.0 %RH
+>> Valve OPEN. Closes by itself in 60 s. Press c to close sooner.
+00:01:42 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.9 %RH
+00:01:43 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.9 %RH
+00:01:44 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+00:01:45 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+00:01:46 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+00:01:47 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+00:01:48 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+>> Valve CLOSED
+00:01:49 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.8 %RH
+00:01:50 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.9 %RH
+00:01:51 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   22.9 C   73.9 %RH
+00:01:52 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   23.0 C   74.0 %RH
+00:01:53 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   23.0 C   74.0 %RH
+00:01:54 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    336 ppm   23.0 C   74.0 %RH
+00:01:55 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.2 %RH
+00:01:56 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.2 %RH
+00:01:57 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.3 %RH
+00:01:58 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.3 %RH
+00:01:59 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.4 %RH
+00:02:00 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.4 %RH
+00:02:01 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.4 %RH
+00:02:02 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.4 %RH
+00:02:03 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.4 %RH
+00:02:04 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.4 %RH
+00:02:05 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.4 %RH
+00:02:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   22.9 C   74.4 %RH
+00:02:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.3 %RH
+00:02:08 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.3 %RH
+00:02:09 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.3 %RH
+00:02:10 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.2 %RH
+00:02:11 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.2 %RH
+00:02:12 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.0 %RH
+00:02:13 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    335 ppm   23.0 C   74.0 %RH
+00:02:14 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.8 %RH
+00:02:15 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.8 %RH
+00:02:16 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+>> Valve OPEN. Closes by itself in 60 s. Press c to close sooner.
+00:02:17 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:18 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+>> Valve CLOSED
+00:02:19 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:20 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:21 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+>> Valve OPEN. Closes by itself in 60 s. Press c to close sooner.
+00:02:22 | MANUAL            | valve OPEN   | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+>> Valve CLOSED
+00:02:23 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:24 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:25 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:26 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:27 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:28 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:29 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:30 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:31 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:32 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:33 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:34 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:35 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:36 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:37 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:38 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:39 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:40 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:41 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:42 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:43 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:44 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:45 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:46 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:47 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:48 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:49 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:50 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:51 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:52 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:53 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:54 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:55 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:56 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:57 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:58 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:02:59 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:00 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:01 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:02 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:03 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:04 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:05 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+00:03:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    334 ppm   23.0 C   73.6 %RH
+
+==========================================
+ CO2 STEP TEST
+==========================================
+ ExplorIR : NOT FOUND (will keep retrying)
+ SCD30    : OK
+ Pulse    : 250 ms every 60 s
+ Phases   : baseline 10 min, step 150 min, decay 120 min
+ Safety   : stops above 3 % CO2
+------------------------------------------
+ o = open   c = close   p = pulse
+ s = start  x = emergency stop
+==========================================
+
+00:00:02 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    332 ppm   23.1 C   74.3 %RH
+00:00:03 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    332 ppm   23.1 C   74.4 %RH
+00:00:04 | IDLE              | valve closed | pulses   0 | ExplorIR    no reply          | SCD30    332 ppm   23.1 C   74.4 %RH
+>> ExplorIR connected
+00:00:05 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:06 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:07 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:08 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:09 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:10 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.0 C   74.4 %RH
+00:00:11 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.0 C   74.4 %RH
+00:00:12 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:13 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    331 ppm   23.1 C   74.4 %RH
+00:00:14 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:15 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:16 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:17 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:18 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:19 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:20 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.4 %RH
+00:00:21 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:22 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:23 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:24 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:25 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:26 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:27 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:28 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:29 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:30 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:31 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:32 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:33 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.5 %RH
+00:00:34 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.5 %RH
+00:00:35 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.5 %RH
+00:00:36 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.5 %RH
+00:00:37 | IDLE              | valve closed | pulses   0 | ExplorIR    700 ppm (0.07 %) | SCD30    330 ppm   23.1 C   74.5 %RH
+00:00:38 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    330 ppm   23.1 C   74.6 %RH
+00:00:39 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    330 ppm   23.1 C   74.6 %RH
+00:00:40 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:41 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:42 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:43 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:44 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:45 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    329 ppm   23.1 C   74.5 %RH
+00:00:46 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:47 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:48 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:49 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:50 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:51 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:52 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:53 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:54 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.5 %RH
+00:00:55 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.6 %RH
+00:00:56 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.6 %RH
+00:00:57 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.6 %RH
+00:00:58 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.1 C   74.6 %RH
+00:00:59 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:00 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:01 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:02 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:03 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:04 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:05 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:06 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:07 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:08 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:09 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:10 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:11 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:12 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:13 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:14 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:15 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:16 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:17 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:18 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:19 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:20 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.6 %RH
+00:01:21 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.6 %RH
+00:01:22 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.6 %RH
+00:01:23 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:24 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:25 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:26 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.6 %RH
+00:01:27 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.6 %RH
+00:01:28 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.6 %RH
+00:01:29 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:30 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.5 %RH
+00:01:31 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:32 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:33 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:34 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:35 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:36 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:37 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:38 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:39 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:40 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.4 %RH
+00:01:41 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.4 %RH
+00:01:42 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:43 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.1 C   74.4 %RH
+00:01:44 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:45 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:46 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:47 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:48 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:49 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:50 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:51 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:52 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.3 %RH
+00:01:53 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:01:54 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:01:55 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:01:56 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:01:57 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:01:58 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:01:59 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:02:00 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:02:01 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:02:02 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.2 %RH
+00:02:03 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:02:04 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:02:05 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:02:06 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:02:07 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    327 ppm   23.2 C   74.1 %RH
+00:02:08 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:09 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:10 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:11 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:12 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:13 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:14 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:15 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH
+00:02:16 | IDLE              | valve closed | pulses   0 | ExplorIR    600 ppm (0.06 %) | SCD30    328 ppm   23.2 C   74.2 %RH

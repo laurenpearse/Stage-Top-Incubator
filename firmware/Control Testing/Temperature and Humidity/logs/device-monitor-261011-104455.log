@@ -1,0 +1,10 @@
+
+# ===== Incubator control + humidity logging + open-loop heated base =====
+#  chamber: G = 32.7/(775s+1), lambda=300s  -> Kp=7.90  Ki=1.02e-2  b=0.5
+#  glass:   G = 38.7/(348s+1), lambda= 60s  -> Kp=14.99 Ki=4.31e-2  b=0.5
+#  base:    OPEN LOOP, no sensor on the pane, max 45 %, backs off to 35 % above T_cham 41.0 C, cut above 43.0 C
+#           calibration: T_base ~= 26.4 + 0.456*duty  (chamber 39 C, amb ~19.5 C)
+#  duty in PERCENT, Ts = 1 s, clamping anti-windup, trip at 55.0 C
+#  default setpoints: chamber 39.0 C, glass 48.0 C
+#  A1 not connected (thermistor failed)
+#  ADS1115 NOT FOUND - check I2C wiring

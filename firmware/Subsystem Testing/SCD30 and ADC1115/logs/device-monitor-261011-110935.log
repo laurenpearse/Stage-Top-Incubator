@@ -1,0 +1,169 @@
+     ---     ---     ---     ---      ---      ---      ---
+
+# ===== I2C bench test: ADS1115 + SCD30 =====
+
+#  idle bus:  SDA = LOW    SCL = LOW
+#  *** a line is being held low ***
+#    SCL low  -> a device is stuck mid clock-stretch, or SCL is shorted to GND
+#    SDA low  -> a device is unpowered and clamping, or SDA is shorted to GND
+#    Unplug one device at a time and press 'r' to see which one releases it.
+
+#  scanning...
+#    nothing answered. Check wiring, power and pull-ups.
+#  devices found: 0
+
+#  initialising...
+#    ADS1115 FAILED
+#    SCD30 FAILED
+
+#
+#  s   rescan the bus
+#  r   re-read the idle SDA/SCL levels
+#  i   re-initialise both devices
+#  ?   this help
+#
+  A0_V     A1_V     A2_V     A3_V      CO2      T_scd    RH
+-----------------------------------------------------------------
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+
+# ===== I2C bench test: ADS1115 + SCD30 =====
+
+#  idle bus:  SDA = HIGH    SCL = HIGH
+#  both lines idle high - bus looks healthy
+
+#  scanning...
+#    nothing answered. Check wiring, power and pull-ups.
+#  devices found: 0
+
+#  initialising...
+#    ADS1115 FAILED
+#    SCD30 FAILED
+
+#
+#  s   rescan the bus
+#  r   re-read the idle SDA/SCL levels
+#  i   re-initialise both devices
+#  ?   this help
+#
+  A0_V     A1_V     A2_V     A3_V      CO2      T_scd    RH
+-----------------------------------------------------------------
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+
+# ===== I2C bench test: ADS1115 + SCD30 =====
+
+#  idle bus:  SDA = HIGH    SCL = HIGH
+#  both lines idle high - bus looks healthy
+
+#  scanning...
+#    found 0x48   <- ADS1115
+#  devices found: 1
+
+#  initialising...
+#    ADS1115 ok
+#    SCD30 FAILED
+
+#
+#  s   rescan the bus
+#  r   re-read the idle SDA/SCL levels
+#  i   re-initialise both devices
+#  ?   this help
+#
+  A0_V     A1_V     A2_V     A3_V      CO2      T_scd    RH
+-----------------------------------------------------------------
+
+# ===== I2C bench test: ADS1115 + SCD30 =====
+
+#  idle bus:  SDA = LOW    SCL = LOW
+#  *** a line is being held low ***
+#    SCL low  -> a device is stuck mid clock-stretch, or SCL is shorted to GND
+#    SDA low  -> a device is unpowered and clamping, or SDA is shorted to GND
+#    Unplug one device at a time and press 'r' to see which one releases it.
+
+#  scanning...
+#    nothing answered. Check wiring, power and pull-ups.
+#  devices found: 0
+
+#  initialising...
+#    ADS1115 FAILED
+#    SCD30 FAILED
+
+#
+#  s   rescan the bus
+#  r   re-read the idle SDA/SCL levels
+#  i   re-initialise both devices
+#  ?   this help
+#
+  A0_V     A1_V     A2_V     A3_V      CO2      T_scd    RH
+-----------------------------------------------------------------
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+
+# ===== I2C bench test: ADS1115 + SCD30 =====
+
+#  idle bus:  SDA = LOW    SCL = LOW
+#  *** a line is being held low ***
+#    SCL low  -> a device is stuck mid clock-stretch, or SCL is shorted to GND
+#    SDA low  -> a device is unpowered and clamping, or SDA is shorted to GND
+#    Unplug one device at a time and press 'r' to see which one releases it.
+
+#  scanning...
+#    nothing answered. Check wiring, power and pull-ups.
+#  devices found: 0
+
+#  initialising...
+#    ADS1115 FAILED
+#    SCD30 FAILED
+
+#
+#  s   rescan the bus
+#  r   re-read the idle SDA/SCL levels
+#  i   re-initialise both devices
+#  ?   this help
+#
+  A0_V     A1_V     A2_V     A3_V      CO2      T_scd    RH
+-----------------------------------------------------------------
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
+     ---     ---     ---     ---      ---      ---      ---
