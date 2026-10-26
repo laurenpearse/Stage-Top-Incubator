@@ -1,0 +1,134 @@
+%---------------------------------------------------------------------
+% Document Properties Macros
+%---------------------------------------------------------------------
+% Title Information
+%   The title matches the registered topic RAV2026-07 and the ethics
+%   approval letter, so the topic spreadsheet and the report agree.
+%---------------------------------------------------------------------
+\newcommand{\titl}{Compact Stage-Top Incubator for Long-Duration Live Bacterial Imaging}
+\newcommand{\subtitle}{EEE4022S Final Year Project, Topic RAV2026-07}
+%---------------------------------------------------------------------
+% Degree Information
+%---------------------------------------------------------------------
+\newcommand{\degreeprogramme}{Mechatronics}
+\newcommand{\degreee}{Bachelor of Science in Engineering in \degreeprogramme}
+\newcommand{\degreeabv}{BSc (Eng)}
+%---------------------------------------------------------------------
+% Document Type
+%---------------------------------------------------------------------
+\newcommand{\documenttype}{final year project report}
+%---------------------------------------------------------------------
+% Author Information
+%---------------------------------------------------------------------
+\newcommand{\auth}{Lauren \textbf{Pearse}}
+\newcommand{\authplain}{Lauren Pearse}
+\newcommand{\studentnumber}{PRSLAU006}
+%---------------------------------------------------------------------
+% Identifiers
+%---------------------------------------------------------------------
+\newcommand{\ebeethicsnumber}{STU-SCI-2026-PSQ002613}
+%   \href, NOT \hyperlink: \hyperlink jumps inside the document only.
+%   TODO: replace with the real repository address before submitting.
+\newcommand{\gitrepo}{\url{https://github.com/laurenpearse/Stage-Top-Incubator}}
+%---------------------------------------------------------------------
+% Institutional Information
+%---------------------------------------------------------------------
+\newcommand{\dept}{Department of Electrical Engineering}
+\newcommand{\uni}{University of Cape Town}
+\newcommand{\city}{Rondebosch, Cape Town}
+\newcommand{\country}{South Africa}
+%---------------------------------------------------------------------
+% Supervisors
+%---------------------------------------------------------------------
+\newcommand{\supervisor}{R.A. \textbf{Verrinder}}
+\newcommand{\cosupervisor}{Dr M.K. \textbf{Mason} (MMRU, IDM)}
+%---------------------------------------------------------------------
+% Keywords
+%---------------------------------------------------------------------
+\newcommand{\key}{stage-top incubator; live-cell imaging; \textit{Mycobacterium smegmatis}; temperature control; CO\textsubscript{2} control; system identification; STM32}
+%---------------------------------------------------------------------
+% Logos
+%---------------------------------------------------------------------
+\newcommand{\logo}{\includegraphics[height=3cm]{figs/0_logos/logo_uct.png}}
+\newcommand{\bottomlogos}{%
+  \begin{center}
+    \includegraphics[height=1.8cm]{figs/0_logos/logo_eee.jpg}
+  \end{center}
+}
+%=====================================================================
+%	DOCUMENT PROPERTIES
+%---------------------------------------------------------------------
+% 	PAGE FORMATTING
+%---------------------------------------------------------------------
+\setlength{\parskip}{10pt}       % Paragraph spacing
+\setlength{\parindent}{0pt}      % No paragraph indentation
+%---------------------------------------------------------------------
+% 	CAPTIONS  Caption margins 80% of text
+%---------------------------------------------------------------------
+\captionsetup{
+  width=0.8\textwidth,
+  font=footnotesize,
+  labelfont=bf
+}                               
+%---------------------------------------------------------------------
+% 	FOOTNOTES
+%---------------------------------------------------------------------
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%---------------------------------------------------------------------
+% Header and Footer
+%---------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\setlength{\footskip}{0.5cm}     % Ensure space for the footer
+\setlength{\headheight}{1cm}     % Increase header height
+\setlength{\headsep}{0.5cm}      % Increase space between header and text
+
+%---------------------------------------------------------------------
+%	NEW COMMANDS
+%---------------------------------------------------------------------
+% Macros for Date and Time
+%---------------------------------------------------------------------
+\newcommand{\FullDate}{\shortdayofweekname{\day}{\month}{\year} \the\day\ \monthname[\month], \the\year}
+\newcommand{\MonthYear}{\monthname[\month] \the\year}
+
+
+%---------------------------------------------------------------------
+% 	TOC FORMATTING
+%---------------------------------------------------------------------
+% Set spacing between entries
+\renewcommand{\cftchapfont}{\normalfont\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont\bfseries}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsubsecpagefont}{\normalfont}
+\setlength{\cftbeforechapskip}{5pt}
+\setlength{\cftbeforesecskip}{3pt}
+\setlength{\cftbeforesubsecskip}{2pt}
+
+% Enable dot leaders
+\renewcommand{\cftchapdotsep}{\cftdotsep}
+\renewcommand{\cftsecdotsep}{\cftdotsep}
+\renewcommand{\cftsubsecdotsep}{\cftdotsep}
+
+% Default: Display "Chapter" in ToC entries for regular chapters
+\renewcommand{\cftchappresnum}{\chaptername\space}
+
+% Set ToC entries for appendix chapters to display "Appendix"
+\setlength{\cftchapnumwidth}{\widthof{\textbf{Appendix~999~}}}
+\makeatletter
+\g@addto@macro\appendix{%
+  \addtocontents{toc}{%
+    \protect\renewcommand{\protect\cftchappresnum}{\appendixname\space}%
+  }%
+}
+\makeatother
+
+% Chapter headings on one line: "Chapter 3: Theoretical Development"
+\titleformat{\chapter}[hang]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{0.5em}{}
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+\newcolumntype{U}{>{\raggedleft\arraybackslash}p{2cm}}

@@ -50,19 +50,23 @@ The full bill of materials and wiring list are in the appendices of the report.
 ## Repository structure
 
 ```
-firmware/     STM32 code (PlatformIO, Arduino framework)
-hardware/     CAD, schematics and bill of materials
-docs/         Report chapters and figures
-data/         Processed test data, with the MATLAB scripts that make the figures
-notes/        Working notes from the project
+firmware/
+  subsystem-tests/   One PlatformIO project per sensor or actuator, used for commissioning
+  control-tests/     Step tests, closed-loop runs, CO2 test and long run, with serial logs
+data/                Processed test data and the MATLAB scripts that make the report figures
+hardware/
+  cad/               Enclosure CAD (STEP)
+  bom/               Initial component list (the final bill of materials is in the report)
+docs/design-notes/   Working notes on heating, sensor selection and the CO2 path
+report/              LaTeX source of the report
 ```
 
-See `firmware/README.md` for a list of the firmware projects and what each one tests.
+Each of `firmware/` and `data/` has its own README listing what every folder contains.
 
 ## Building the firmware
 
 1. Install VS Code and the PlatformIO extension.
-2. Open one of the project folders in `firmware/Subsystem Testing/`.
+2. Open one of the project folders in `firmware/subsystem-tests/` or `firmware/control-tests/`.
 3. Connect the Nucleo board over USB and run **Build**, then **Upload**.
 4. Open the serial monitor at 115 200 baud to see the readings.
 
@@ -80,4 +84,4 @@ The main changes recommended for the next build are:
 6. Test on a microscope, including light transmission through the lid and focal drift.
 7. Recalibrate the sensors near 37 °C, then image a live culture.
 
-The full report covers the design, models, tests and results in detail.
+The full report covers the design, models, tests and results in detail. Its LaTeX source is in `report/`.

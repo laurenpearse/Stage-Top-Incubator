@@ -1,0 +1,22 @@
+%---------------------------------------------------------------------
+% Appendix: GitHub repository
+%---------------------------------------------------------------------
+\chapter{GitHub Repository}
+\label{app:github}
+
+The firmware, test data, analysis scripts, enclosure CAD and the \LaTeX\ source of this report are in the project repository:
+
+\begin{center}
+    \gitrepo
+\end{center}
+
+\noindent The repository is organised as follows:
+
+\begin{itemize}[nosep]
+    \item \texttt{firmware/subsystem-tests}: the PlatformIO projects used to bring up each sensor and actuator on its own (Chapter~\ref{ch:commissioning}).
+    \item \texttt{firmware/control-tests}: the step test, closed-loop, CO\textsubscript{2} and long-run firmware, with the serial log from each run (Chapters~\ref{ch:thermalID} to~\ref{ch:co2humidity}).
+    \item \texttt{data}: the processed test data and the MATLAB scripts that produce the result figures, in one folder per stage of testing.
+    \item \texttt{hardware}: the enclosure CAD as a STEP file and the initial component list.
+    \item \texttt{docs/design-notes}: working notes on the heating, sensor selection and CO\textsubscript{2} path.
+    \item \texttt{report}: the \LaTeX\ source of this report.
+\end{itemize}

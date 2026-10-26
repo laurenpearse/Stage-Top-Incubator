@@ -1,9 +1,6 @@
 # Hardware
 
-Mechanical and electrical design for the incubator chassis and chamber.
+- `cad/stage-top-incubator.step`: the 3D-printed PETG enclosure as a STEP file, which opens in most CAD programs (Fusion 360, SolidWorks, FreeCAD, Onshape).
+- `bom/initial-component-list-2026-08-27.pdf`: the first component list from August. The final bill of materials (R 13 527) and the full wiring list are in the appendices of the report.
 
-- `cad/` — 3D models / assemblies (STEP, and native files for whatever CAD tool you use — Fusion 360, SolidWorks, etc.)
-- `schematics/` — electrical schematics (PID board, sensor wiring, heater driver circuits)
-- `bom/` — bill of materials (spreadsheet or markdown table of parts, suppliers, costs)
-
-Large native CAD binaries can bloat a git repo fast — if a single file starts pushing past a few tens of MB, consider exporting a lightweight STEP/PDF for the repo and keeping the native source file elsewhere (or set up [Git LFS](https://git-lfs.com) for this folder).
+The heater driver and thermistor divider circuits are drawn in the report.
