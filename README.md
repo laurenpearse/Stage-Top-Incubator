@@ -53,8 +53,7 @@ The full bill of materials and wiring list are in the appendices of the report.
 firmware/     STM32 code (PlatformIO, Arduino framework)
 hardware/     CAD, schematics and bill of materials
 docs/         Report chapters and figures
-data/         Raw logs and processed test results
-scripts/      Analysis and plotting scripts
+data/         Processed test data, with the MATLAB scripts that make the figures
 notes/        Working notes from the project
 ```
 
