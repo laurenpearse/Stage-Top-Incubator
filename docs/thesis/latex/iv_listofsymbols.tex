@@ -1,0 +1,72 @@
+%---------------------------------------------------------------------
+%	List of Symbols
+%---------------------------------------------------------------------
+\chapter{List of Symbols}
+\label{ch:symbols}
+%   \chapter in the front matter already adds a contents entry, so no
+%   \addcontentsline is needed here.
+%---------------------------------------------------------------------
+\small
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}>{$}l<{$} >{\raggedright\arraybackslash}p{0.66\textwidth} >{\raggedleft\arraybackslash}p{2.3cm}@{}}
+\toprule
+\textbf{Symbol} & \textbf{Description} & \textbf{Unit} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Symbol} & \textbf{Description} & \textbf{Unit} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\multicolumn{3}{@{}l}{\textit{Thermal model}} \\
+T_c,\ T_g,\ T_a & Chamber air, lid glass and ambient (room) temperature & \textdegree{}C \\
+T_{a0} & Ambient temperature latched when a loop starts & \textdegree{}C \\
+C_c,\ C_g & Thermal capacitance of the chamber node and the glass node & J/K \\
+R_{ca} & Thermal resistance, chamber to ambient through the walls & K/W \\
+R_{cp} & Thermal resistance, chamber to ambient through the plate & K/W \\
+R_{cg} & Thermal resistance, chamber to glass & K/W \\
+R_{ga} & Thermal resistance, glass to ambient & K/W \\
+R_{tot},\ R_{tot,g} & Parallel combination of the chamber and glass resistances & K/W \\
+P_h,\ P_g & Wall heater and glass heater power at full duty & W \\
+\mu_h,\ \mu_g & Wall heater and glass heater duty cycle & -- \\
+h_c,\ h_a & Convection coefficient, inner and outer surfaces & W/m\textsuperscript{2}K \\
+k_w,\ k_p & Thermal conductivity of the wall and the plate & W/mK \\
+t_w,\ t_p & Thickness of the wall and the plate base & m \\
+A_w,\ A_g,\ A_p & Area of the wall, the glass and the plate & m\textsuperscript{2} \\
+\rho,\ c_p & Density and specific heat capacity & kg/m\textsuperscript{3}, J/kgK \\
+R_s & Sheet resistance of the ITO coating & $\Omega$/sq \\
+\addlinespace[4pt]
+\multicolumn{3}{@{}l}{\textit{CO\textsubscript{2} model}} \\
+\chi_c,\ \chi_s,\ \chi_a & CO\textsubscript{2} concentration in the chamber, the supply and the room & -- \\
+\chi_0,\ \mu_0 & Operating point concentration and the duty that holds it & -- \\
+\delta\chi,\ \delta\mu & Small deviations about the operating point & -- \\
+V & Free gas volume of the chamber & L \\
+Q_{in} & Regulator flow with the solenoid open & L/min \\
+Q_L & Exchange (leak) flow between chamber and room & L/h \\
+\mu_v & Solenoid duty cycle & -- \\
+t_{min} & Shortest usable solenoid pulse & s \\
+\tau_s & Sensor time constant & s \\
+\theta,\ \theta_{mix} & Total loop delay and inlet-to-sensor mixing delay & s \\
+\addlinespace[4pt]
+\multicolumn{3}{@{}l}{\textit{Control}} \\
+s & Laplace variable & s\textsuperscript{$-1$} \\
+G(s),\ C(s),\ L(s) & Plant, controller and loop transfer functions & -- \\
+K & Plant steady-state gain & \textdegree{}C or pp per unit duty \\
+K_{11},\ K_{22} & Gain of each heater on its own temperature & \textdegree{}C per unit duty \\
+K_{12},\ K_{21} & Cross gain, glass heater to air and wall heater to glass & \textdegree{}C per unit duty \\
+K_\mathrm{eff} & Effective chamber gain with the glass loop closed & \textdegree{}C per unit duty \\
+\tau & Plant time constant & s \\
+\lambda & Desired closed-loop time constant (lambda tuning) & s \\
+K_p,\ K_i & Proportional and integral gain & per unit, per s \\
+T_i & Integral time & s \\
+b & Setpoint weight on the proportional term & -- \\
+r,\ y,\ u & Setpoint, measurement and controller output & -- \\
+T_s & Controller sample period & s \\
+\addlinespace[4pt]
+\multicolumn{3}{@{}l}{\textit{Humidity}} \\
+\mathrm{RH} & Relative humidity & \% \\
+p_{sat} & Saturation vapour pressure & hPa \\
+T_{water},\ T_{air} & Water and air temperature in the humidity ceiling & \textdegree{}C \\
+\end{longtable}
+\normalsize

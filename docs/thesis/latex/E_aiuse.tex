@@ -1,0 +1,80 @@
+%---------------------------------------------------------------------
+% Appendix: Use of AI tools
+%---------------------------------------------------------------------
+\chapter{Use of AI Tools}
+\label{app:ai}
+
+Anthropic's Claude (claude.ai) was the only AI tool used in this project. It was used as a writing, editing and coding aid. It was used to shorten and reword drafted text, fix \LaTeX\ problems, keep earlier chapters consistent with the final implementation, organise design notes into a clearer form to write from, and help write the STM32 code for reading the sensors and implementing the controllers. All engineering decisions, component selection, modelling, experiments, data and results are the author's own. The examples below are representative of how the tool was used; prompts are abridged.
+
+%---------------------------------------------------------------------
+\section{Example 1: Shortening and rewording a paragraph}
+\label{app:ai-ex1}
+%---------------------------------------------------------------------
+
+\textbf{Prompt.}
+\begin{quote}\small
+``Can you shorten this paragraph and reword it so it's easier to read and less wordy. Keep it concise and simple, and don't change any of the technical meaning.''
+\end{quote}
+
+\textbf{Submitted.} A drafted paragraph from the report.
+
+\textbf{Received.} A shorter version of the paragraph with simpler sentence structure.
+
+\textbf{Used.} The shortened version was compared against the original to check that no technical detail or meaning had been lost. Wording was edited where the output was too vague or changed the emphasis, and any figures were checked against the logged data.
+
+%---------------------------------------------------------------------
+\section{Example 2: STM32 sensor and controller code}
+\label{app:ai-ex2}
+%---------------------------------------------------------------------
+
+\textbf{Prompt.}
+\begin{quote}\small
+``Here is the [sensor] and its datasheet. Can you help me write Arduino code for the STM32 L476RG that reads from it over [I2C/SPI/ADC] and converts the raw readings into proper units.''
+\end{quote}
+
+
+\textbf{Submitted.} The sensor datasheet, the pin configuration and the existing project code.
+
+\textbf{Received.} Example Arduino code for initialising the sensor, reading raw values and converting them to physical units, and later, example code structure for implementing the controllers.
+
+\textbf{Used.} Sensor addresses, pin assignments and conversion formulas were checked against the datasheet, and the code was tested on the hardware before use. The code was modified to fit the existing firmware structure, and controller gains and sampling rates came from my own design and modelling.
+
+%---------------------------------------------------------------------
+\section{Example 3: Organising design notes}
+\label{app:ai-ex3}
+%---------------------------------------------------------------------
+
+\textbf{Prompt.}
+\begin{quote}\small
+``Here are my rough notes from designing the [subsystem]. Can you organise them into a clear structure so they're easier to write the chapter from. Don't add anything that isn't in my notes.''
+\end{quote}
+
+\textbf{Submitted.} Rough design notes, calculations and measurements.
+
+\textbf{Received.} The same notes grouped into a logical order with headings.
+
+\textbf{Used.} The structured notes were used as a writing outline. The chapter text was written from these notes, and the content was checked against the original calculations and measurements.
+
+%---------------------------------------------------------------------
+\section{Example 4: \LaTeX\ problems and consistency checks}
+\label{app:ai-ex4}
+%---------------------------------------------------------------------
+
+\textbf{Prompt.}
+\begin{quote}\small
+``This won't compile, here's the error and the code, can you fix it.''\\[2pt]
+``Can you read through these chapters and flag anything that doesn't match what was actually implemented, because the plan changed during the project.''
+\end{quote}
+
+\textbf{Submitted.} \LaTeX\ source, compiler error messages and drafted chapters.
+
+\textbf{Received.} Fixes for compilation and formatting errors, and a list of places where earlier chapters described the initial plan instead of the final implementation.
+
+\textbf{Used.} \LaTeX\ fixes were applied and checked in the compiled PDF. Each flagged inconsistency was checked against the final design and data, and the affected sections were rewritten by the author.
+
+%---------------------------------------------------------------------
+\section{Reflection}
+\label{app:ai-reflection}
+%---------------------------------------------------------------------
+
+The tool was most useful for shortening long passages, fixing \LaTeX\ problems, keeping chapters written over a semester consistent with how the project developed, and speeding up the firmware for reading the sensors. It was least reliable on specific facts and hardware details, such as specifications and register values, so no output was used without checking it against the datasheets, the logged data or testing on the hardware.

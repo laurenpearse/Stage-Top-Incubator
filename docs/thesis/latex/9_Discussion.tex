@@ -1,0 +1,77 @@
+%*********************************************************************
+\chapter{Discussion}
+\label{ch:discussion}
+%*********************************************************************
+
+%*********************************************************************
+\section{The Air and the Sample}
+\label{sec:disc-sample}
+%*********************************************************************
+
+The controller measures the chamber air, while R2 and R3 are written at the sample, and the difference accounts for both requirements being missed. Holding 37\,\textdegree{}C leaves the well at 34.4\,\textdegree{}C and the corner at 26.8\,\textdegree{}C (Section~\ref{sec:cl-test1}). Run 2 raised the air by 3.8\,\textdegree{}C and both wells rose 2.9\,\textdegree{}C, leaving the 2.5\,\textdegree{}C spread between them unchanged, so no air temperature places both at 37\,\textdegree{}C, and the condensation margin fell from 8.84 to 5.03\,\textdegree{}C in the attempt.
+
+\textbf{The same offset limits the humidity.} Water in the wells sits at the sample temperature, 34.5\,\textdegree{}C against 39\,\textdegree{}C air, and air saturated at the water's temperature loses humidity as the heaters warm it. The most available is 78\,\% against the 90\,\% R3 asks for (Section~\ref{sec:humidity}), and reaching 90\,\% needs the water at 37.0\,\textdegree{}C, the same offset R2 needs.
+
+\textbf{Heating from below addresses both.} Run 3 lifted the well from 30.9 to 36.7\,\textdegree{}C with the air unchanged and the condensation margin holding near 8.6\,\textdegree{}C (Section~\ref{sec:cl-test3}). The water sits in the same plate, so the humidity ceiling rises with it. It does not close R2 on its own, since the spread across the plate remains for the reason in Section~\ref{sec:disc-control}, and for R3 it is a prediction, since the base was out of circuit during the long run.
+
+\textbf{The offset comes from leaving the base unheated.} The base was left unheated for optical reasons (Section~\ref{sec:temperature-design}), and this result puts that choice in question. Commercial systems heat as many of the surfaces around the sample as they can, including the objective and the lid (Section~\ref{subsec:existing-temperature}). The same applies to humidity. A passive reservoir at the sample temperature can only reach a humidity set by its gap to the air temperature, so builds like those in Section~\ref{subsec:existing-humidity} cannot reach 90\,\% unless the reservoir is at or above the air temperature.
+
+%*********************************************************************
+\section{Models Against Measurement}
+\label{sec:disc-models}
+%*********************************************************************
+
+All three plant models overpredicted: the chamber reached 40\,\% of the predicted gain, the glass 53\,\%, and the CO\textsubscript{2} volume came out 2.1 times too large. The cause is in Section~\ref{sec:scope}. Lead times meant the models were built before the enclosure was designed, so they described a different chamber from the one that was made. The duty shows it, at 9\,\% predicted against 33\,\% measured. The model structure still held. Both plants came out first order, stable and linear across the range the controller uses, so only $K$ and $\tau$ changed, and the PI structure, lambda tuning and setpoint weight carried through as designed.
+
+\textbf{The lumped model describes one path through the chamber.} At setpoint the corner sits 10.3\,\textdegree{}C below the chamber air and the well 2.6\,\textdegree{}C below the air, so a single node does not describe the enclosure. It describes the path from wall heater duty to the PT1000 above the plate, where the first order fit holds to within 3\,\%. More nodes would reproduce those offsets and still compute the same duty from the same one sensor. The sample is where the detail would matter: the well reaches 63.2\,\% of a step in about 35 minutes against about 12 minutes for the air, so the loop is done about 23 minutes before the sample is.
+
+%*********************************************************************
+\section{Control Performance and Its Limits}
+\label{sec:disc-control}
+%*********************************************************************
+
+\textbf{The two loops are strongly coupled.} The wall heaters put 84\,\% as much heat into the glass as into the air, which gives $K_\mathrm{eff} = 32.6$ against $K_{11} = 51$, so using $K_{11}$ would have run the chamber loop 1.6 times more aggressively than intended. Run 2 confirms the correction: the glass held $48.00 \pm 0.10$\,\textdegree{}C through a 3.8\,\textdegree{}C move in the chamber. None of the incubators in Section~\ref{sec:existing-systems} report a cross gain. Here it was measured and the tuning corrected for it.
+
+\textbf{The design choices held, with one exception.} Setpoint weighting removed the 0.48\,\textdegree{}C overshoot the simulation predicted, and run 1 did not overshoot. Run 2 overshot by 1.08\,\textdegree{}C for two reasons: both loops saturated at start-up, so the chamber briefly saw the uncorrected gain of 51, and the integrator preload, set from room temperature, works out above 100\,\% at these setpoints.
+
+
+\textbf{The base runs open loop and the plate is still uneven.} At 45\,\% base duty the wall heaters fell to 4.0\,\%, which leaves the chamber loop almost no range to work with, so the base acts as a disturbance. Closing a loop around the base would restore that range and allow 37\,\textdegree{}C to be held at the sample directly. Evenness was a problem with and without the base heater: the edge wells were cooler than the centre without it and warmer with it. The base is still a substantial improvement. The spread fell from 2.5\,\textdegree{}C between the centre and a well one column in from the edge, to 1.81\,\textdegree{}C between the centre and the corner well, the most exposed on the plate. The remaining spread comes from the busbars along two edges of the base pane, so a control loop would shift the average and leave the spread in place. Evening out the plate needs two zones or busbars on opposite long edges. Until then, the centre wells are good enough to use, and a run does not need all 96 wells.
+
+\textbf{An unmeasured leak would not have destabilised the gas loop.} The leak appears in both $K$ and $\tau$, so it cancels from the ratio that sets the crossover (Section~\ref{sec:co2-sensitivity}) and changes only fill time and ripple. The flow is the one to watch, since it lands entirely on $K$ and takes the margin from 78 to 20 degrees across its plausible range.
+
+%*********************************************************************
+\section{Performance Against the Requirements}
+\label{sec:disc-requirements}
+%*********************************************************************
+
+The control itself worked. The chamber held 37\,\textdegree{}C to within 0.04\,\textdegree{}C over 80 minutes and 39\,\textdegree{}C to within 0.08\,\textdegree{}C over 6.5 hours, absorbed a 2.8\,\textdegree{}C rise in the room without moving off setpoint, and recovered from the chamber being opened in 1.6 minutes.
+
+
+\textbf{The instrument limits what can be claimed for R1.} The converter resolves 0.034\,\textdegree{}C per step, and the chamber channel returned only eight different values over 80 minutes, so the 0.038\,\textdegree{}C standard deviation is set by the step size. The PT1000 is Class A, with a tolerance of about $\pm$0.22\,\textdegree{}C at 37\,\textdegree{}C, which is within R1. The sensor also had a lead resistance offset, and the calibration was only checked at 0 and 19.5\,\textdegree{}C, with the thermistor offsets taken at 23.6\,\textdegree{}C. Confirming $\pm$0.22\,\textdegree{}C with confidence would need a check at 37\,\textdegree{}C against a known accurate sensor. That figure is inside the range of existing systems in Table~\ref{tab:accuracy_comparison}: $\pm$0.1 to $\pm$0.3\,\textdegree{}C for commercial and $\pm$0.1 to $\pm$0.7\,\textdegree{}C for DIY. Those figures are all for chamber air, and none of the reviewed systems report a sample temperature, so the sample offset measured here has nothing to be compared against. The 6.5 hour record is also much shorter than the multi-day characterisation missing from the literature (Section~\ref{subsec:existing-accuracy}).
+
+\begin{table}[H]
+    \centering
+    \caption[Performance against the requirements]{\textbf{Performance against the requirements.}}
+    \label{tab:disc-requirements}
+    \small
+    \begin{tabular}{@{}llp{10.5cm}@{}}
+        \toprule
+        & \textbf{Outcome} & \textbf{Evidence} \\
+        \midrule
+        R1 & Met & $37.028 \pm 0.038$\,\textdegree{}C over 80 min, at the converter floor \\
+        R2 & Partly met & Centre well 0.19\,\textdegree{}C off target with base heating, corner well 1.6\,\textdegree{}C high, air at 39\,\textdegree{}C \\
+        R3 & Not met & 77.3\,\% mean against 90\,\% \\
+        R4 & Not demonstrated & Designed and simulated, never run on gas \\
+        R5 & Met & Glass above the dew point in every run \\
+        R6 & Met & Fitted the K-frame insert it was measured against \\
+        R7 & Met as built & Nothing more than 4\,mm below the stage \\
+        R8 & Not met & Longest unbroken run 6\,h\,33\,min \\
+        R9 & Met & Build, firmware and test data documented \\
+        R10 & Met & R\,13\,527 against the systems in Section~\ref{sec:existing-systems} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Section~\ref{subsec:temp-stability} shows the cells tolerate shifts of a few degrees, so $\pm$0.3\,\textdegree{}C is a precision target matched to the reviewed systems, and meeting it leaves a wide biological margin. R3 raises the same question for humidity, since its 90\,\% target is below the 95\,\% at which Section~\ref{subsec:evaporation-humidity} says evaporation starts to disturb a small sample.
+
+Four requirements are still open, but none of them is a control problem. R2 and R3 come from design decisions in Chapter~\ref{ch:design}, and R4 and R8 need the missing connections.

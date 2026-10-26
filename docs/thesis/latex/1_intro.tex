@@ -1,0 +1,96 @@
+%****************************************************
+%	CHAPTER 1 - INTRODUCTION
+%****************************************************
+\chapter{Introduction}
+\label{ch:intro}
+
+\section{Background}
+\label{sec:background}
+
+Mycobacteria grow slowly and unevenly. Even in a clonal population, individual cells differ in growth rate, division timing and antibiotic susceptibility, and they organise into larger structures such as cords \citep{aldridge_asymmetry_2012,davis_defining_2016,julian_microscopic_2010}. None of this survives a bulk culture measurement, which averages the population into a single number. Seeing it requires watching individual cells and microcolonies as they grow, which means live-cell imaging over hours to days.
+
+\textit{Mycobacterium tuberculosis} is the species of interest, but it doubles roughly every eighteen hours and must be handled in a biosafety level 3 facility \citep{sparks_mycobacterium_nodate,chung_single-cell_2024}. \textit{Mycobacterium smegmatis} is used instead as a faster growing, non-pathogenic model. Even so, a run long enough to watch a microcolony form takes days, and over that time the environment around the sample matters.
+
+A chamber that drifts corrupts the measurement in three separate ways. Cells held away from their target temperature divert resources into stress responses: shifting \textit{M. smegmatis} from 37\,\textdegree{}C to 15\,\textdegree{}C halts division for about a day and changes the expression of nearly a quarter of the genome within two hours \citep{grigorov_dynamic_2023}. Air held below saturation draws water out of small sample volumes, which raises the osmolarity of the medium and sets up local currents strong enough to disturb the sample, so the humidity has to sit near saturation for the whole run \citep{frigault_live-cell_2009,berthier_managing_2008-1}. Most focal drift comes from temperature change rather than mechanical movement, so an unstable chamber degrades the images themselves and not just the biology \citep{adler_reducing_2003}. An experiment of this kind therefore depends on a chamber that holds temperature and humidity steady for the full length of the run, and that can supply 5\,\% CO\textsubscript{2} for the host-cell infection work this platform is intended to serve next.
+
+\section{Problem Statement}
+\label{sec:problem-statement}
+
+Stage-top incubators meet this need by delivering heat, humidity and gas to the sample on the microscope stage, rather than enclosing the whole instrument \citep{talebipour_facilitating_2024}. Commercial units do it well, but they are expensive and closed to modification, which puts them beyond the reach of a group that needs to adapt the chamber or its environment. The published open-source alternatives are affordable and modifiable, usually built around a microcontroller. Each is reported as a single working build, with holding accuracy quoted over hours rather than days, and without performance measured across conditions or documented well enough for another group to reproduce it. Across both categories the environmental targets are inherited from mammalian cell culture rather than derived from the organism being imaged. Chapter~\ref{ch:review} reviews both in detail.
+
+No available system therefore combines an affordable, modifiable chamber with an environment scoped to mycobacterial imaging and stability demonstrated over the duration that imaging requires. This project sets out to build such a system and to characterise it over realistic run lengths, using \textit{M. smegmatis} as a non-pathogenic model for eventual \textit{M. tuberculosis} work.
+
+\section{Objectives}
+\label{sec:objectives}
+
+The primary objective is to control the environment around the sample: hold the chamber air at 37\,\textdegree{}C, keep the relative humidity near saturation and supply CO\textsubscript{2} at 5\,\%, all from a single embedded platform. It must do this within the constraints of the instrument it sits on, so the chamber must also take a standard 96-well plate in a K-frame stage insert, keep the optical path clear, and add as little height below the plate as possible so that objective working distance is preserved.
+
+Meeting those targets requires each variable to be modelled, and a controller designed and simulated for each before the design is committed to hardware. The built system and its instrumentation are then verified, the models are identified from step tests on the hardware and compared against the predictions, and the closed loops are characterised for setpoint accuracy, disturbance rejection, interaction between the loops, and how closely the sample well follows the controlled setpoint. The final objective is to document the build, the firmware and the test data so that the chamber can be rebuilt or modified by others, and to recommend what to improve next.
+
+\section{Requirements}
+\label{sec:requirements}
+
+The requirements below come from the biology and from the imaging application, and each is justified in Chapter~\ref{ch:review}. They are grouped by what they constrain, in order of importance to the project.
+
+\smallskip
+\noindent\textbf{Environment at the sample}\nobreak
+\begin{enumerate}[label=R\arabic*., leftmargin=1.3cm, nosep]
+    \item Hold the chamber air at 37\,\textdegree{}C within $\pm$0.3\,\textdegree{}C, with an adjustable setpoint.
+    \item Hold the sample itself to the same tolerance, not only the air around it.
+    \item Keep the relative humidity at or above 90\,\%, to limit evaporation.
+    \item Supply 5\,\% CO\textsubscript{2} within $\pm$0.3 percentage points, for later host-cell infection work.
+\end{enumerate}
+
+\smallskip
+\noindent\textbf{Fit on the microscope}\nobreak
+\begin{enumerate}[label=R\arabic*., leftmargin=1.3cm, nosep, start=5]
+    \item Keep the optical path clear, with no condensation on any surface the light passes through.
+    \item Take a standard ANSI/SLAS 96-well plate \citep{ansi_slas_2004} in a K-frame stage insert on an inverted microscope.
+    \item Add as little height below the plate as possible, to preserve objective working distance.
+\end{enumerate}
+
+\smallskip
+\noindent\textbf{Use as a research platform}\nobreak
+\begin{enumerate}[label=R\arabic*., leftmargin=1.3cm, nosep, start=8]
+    \item Run unattended and continuously for at least 24 hours.
+    \item Be modifiable and documented, so that a setpoint can be changed or a sensor added.
+    \item Cost an order of magnitude less than a commercial stage-top system.
+\end{enumerate}
+\smallskip
+
+The tolerances in R1 to R4 are not set by the biology. Mammalian cells, the most demanding host this platform is meant to serve, only begin a stress response after a shift of a few degrees from 37\,\textdegree{}C (Section~\ref{subsec:temp-stability}), so $\pm$0.3\,\textdegree{}C sits well inside what the cells tolerate and is tight by choice. Section~\ref{subsec:existing-accuracy} shows that the published figures for comparable systems vary widely and are mostly self-reported under conditions that are not given, so a tolerance copied from them would be arbitrary. They are instead chosen so that meeting them places this system in the same band as the systems reviewed, and so that the measurement chain selected in Chapter~\ref{ch:design} can confirm them, since a tolerance tighter than the sensor uncertainty cannot be tested. Humidity is given as a floor rather than a band for the same reason, as the sensor resolves to about $\pm$3\,\%. The floor of 90\,\% is the lower end of the 90 to 95\,\% range used in cell culture (Section~\ref{sec:environmental-demands}), and is the minimum that could be acceptable, since Section~\ref{subsec:evaporation-humidity} gives 95\,\% as the level below which evaporation begins to disturb a small sample.
+
+\section{Scope and Limitations}
+\label{sec:scope}
+
+The work covers the design, modelling, construction, control and characterisation of the incubator itself on a single embedded platform. All three loops are designed and built. Temperature is characterised in full in Chapters~\ref{ch:thermalID} and~\ref{ch:ClosedLoop}, and the CO\textsubscript{2} and humidity channels in Chapter~\ref{ch:co2humidity}. No live culture is imaged and no biological validation is attempted. The environmental targets are those of \textit{M. smegmatis}, and use with \textit{M. tuberculosis} motivates the design but sits outside the scope, since it would require a biosafety level 3 facility.
+
+The project was carried out under the constraints below, which shaped the design decisions in Chapter~\ref{ch:design} and should be read before those decisions are judged.
+
+\begin{itemize}[nosep]
+    \item \textbf{A build budget of roughly R10\,000 to R15\,000,} consistent with R10 but ruling out the heated optics, precision gas blending and sealed enclosures of a commercial unit.
+    \item \textbf{A single semester, and effectively one build iteration.} There was no time to build, test and then rebuild, so design decisions had to be committed to before there were measurements to inform them. This is why the modelling in Chapter~\ref{ch:theory} carries the weight it does.
+    \item \textbf{Component lead times forced early decisions.} Specialised parts had to be ordered internationally several weeks in advance, before the design had been modelled or tested, and anything needed after that had to come from local stock.
+    \item \textbf{3D printing was the only realistic fabrication process,} so the chamber geometry, the wall thickness and the sealing approach are all limited by what can be printed.
+    \item \textbf{Testing was done on a bench rather than on a microscope.} Stage time was not available for runs of this length, so focal-plane drift and optical transmission through the heated lid could not be measured. Both are carried into Chapter~\ref{ch:furtherwork}.
+\end{itemize}
+
+%*********************************************************************
+\section{Plan of Development}
+\label{sec:plan}
+%*********************************************************************
+
+The report follows the order the work was done.
+
+Chapter~\ref{ch:review} reviews the biology, then compares the existing stage-top systems one variable at a time. It also covers what is known about controlling temperature, humidity and gas together in one enclosure, and ends with the gap this project fills. Chapter~\ref{ch:theory} models each loop before any hardware existed. The chamber and the glass are treated as lumped RC networks and the gas as one well mixed volume, which gives a first order model for each. A proportional-integral (PI) controller is then designed and simulated for all three.
+
+Chapter~\ref{ch:design} describes the incubator as built: the printed enclosure, the heated zones, the sensors, the gas path, the embedded platform and the cost. Chapter~\ref{ch:commissioning} checks that build. Every actuator is driven and every sensor confirmed to read correctly, and the measurement chain is calibrated. This sets how small a change the sensors can show, which every tolerance later in the report is judged against.
+
+Chapter~\ref{ch:thermalID} steps each thermal loop open loop on the built chamber and fits a model to the response. The estimated parameters are replaced with measured ones, and the controller gains are recalculated. Chapter~\ref{ch:ClosedLoop} then closes the loops over four runs: holding setpoint, raising the air to reach the sample, heating the plate from below instead, and measuring how evenly the heat reaches the plate.
+
+Chapter~\ref{ch:co2humidity} covers the gas and humidity channels. The gas connection failed, so the CO\textsubscript{2} loop was never run. The model is recomputed on the measured geometry instead, and swept across the two values that were never measured. Humidity is measured over a long run with water standing in the plate.
+
+Chapter~\ref{ch:discussion} draws the chapters together and scores the build against the ten requirements. Chapter~\ref{ch:conclusions} states what the work shows, and Chapter~\ref{ch:furtherwork} sets out what the next build should change. The appendices hold the supporting material.
+%*********************************************************************
+% End of Introduction
+%*********************************************************************

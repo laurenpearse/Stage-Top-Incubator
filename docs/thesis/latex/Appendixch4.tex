@@ -1,0 +1,347 @@
+%*********************************************************************
+%	APPENDIX: COMPONENT SELECTION
+%*********************************************************************
+\chapter{System Design}
+\label{app:system-design}
+\section{Component Selection}
+\label{app:component-selection}
+
+The tables below list every option that was priced during sourcing, with the reason it was chosen or rejected. The reasons behind the final choices are given in Chapter~\ref{ch:design}, and this appendix is the supporting record. Prices are in ZAR as quoted in September 2026 and exclude shipping and duties unless stated. The bill of materials for the build is in Appendix~\ref{app:bom}.
+
+
+
+
+%---------------------------------------------------------------------
+\section{Chamber Heating}
+\label{app:heater-options}
+%---------------------------------------------------------------------
+
+\begin{table}[H]
+    \centering
+    \caption[Chamber heater options considered]{\textbf{Chamber heater options considered.}}
+    \label{tab:heater-options}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.6cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{7.0cm}@{}}
+        \toprule
+        \textbf{Component} & \textbf{Vendor} & \textbf{Cost} & \textbf{Outcome} \\
+        \midrule
+        Heating element, 10\,W 24\,V & RS Online & 140 & Rejected, point source \\
+        Heater cartridge, 6$\times$20\,mm 24\,V 40\,W & DIY Electronics & 35 & Rejected, point source \\
+        Polyimide film heater, 24\,V 72\,W, 12-pack & BobShop & 518 & Rejected, 24\,V \\
+        PTC heater, 12\,V, 5-pack & Takealot & 427 & Rejected, self-limiting at 70\,\textdegree{}C so the element sets its own output \\
+        PTC heater, 24\,V 160\,W & DigiKey & 376 & Rejected, 24\,V and self-limiting \\
+        Polyimide film heater, 12\,V 12/13\,W, 20-pack & Amazon & 570 & \textbf{Chosen}, flat area heating at 12\,V \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:heater-options} lists the heaters that were priced. A 20-pack was bought so that the number and position of the pads could be changed without reordering. Three pads were modelled in Appendix~\ref{app:thermal-parameters} and two were fitted to the walls of the build. The rest are spares, since an adhesive pad cannot be reused once it is removed.
+
+%---------------------------------------------------------------------
+\section{ITO Coated Glass}
+\label{app:ito-options}
+%---------------------------------------------------------------------
+
+ITO glass was preferred from the start, but no South African supplier stocks it in a usable size, and the overseas suppliers were either too expensive or unclear about selling single pieces. A backup plan was worked out: ITO-coated PET film laminated between two sheets of plain glass, with copper tape busbars. Konshen Glass then quoted R\,2\,560 for five custom-cut pieces with a 10 to 15 day lead time (Table~\ref{tab:ito-options}), which brought real ITO glass within budget. The film was not needed, and the calculation in Section~\ref{sec:temperature-design} later showed it would not have given enough power at 12\,V anyway, since it only comes in a 50\,$\Omega$/sq grade.
+
+\begin{table}[H]
+    \centering
+    \caption[ITO coated glass sourcing options]{\textbf{ITO coated glass sourcing options.} Costs quoted where a quotation was obtained.}
+    \label{tab:ito-options}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{7.8cm}@{}}
+        \toprule
+        \textbf{Supplier} & \textbf{Location} & \textbf{Cost} & \textbf{Outcome} \\
+        \midrule
+        Sigma-Aldrich & Local & -- & Rejected, no suitable size \\
+        \addlinespace[2pt]
+        Abrisa Technologies & USA & -- & Rejected, lead time and unclear whether single-piece orders are accepted \\
+        \addlinespace[2pt]
+        MSE Supplies & USA & 3\,000--6\,000 per piece & Rejected on cost \\
+        \addlinespace[2pt]
+        UQG Optics & UK & -- & Approached, not pursued \\
+        \addlinespace[2pt]
+        Saida Glass & China & -- & Approached, not pursued \\
+        \addlinespace[2pt]
+        ITO coated PET film, laminated between plain glass & DigiKey & 165 & Ordered as a fallback, not used once Konshen quoted \\
+        \addlinespace[2pt]
+        Konshen Glass & China & 2\,560 for 5 pieces, plus R\,750 duties & \textbf{Chosen}, custom size, 10 to 15 day lead time \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The glass is 150\,mm $\times$ 112\,mm $\times$ 1.1\,mm, which is the plate footprint plus about 12\,mm on each side for the busbars. Thinner glass breaks too easily at this size. Five pieces were ordered because a broken piece could not be replaced locally within the project time.
+
+Silver paste and evaporated metal are the usual busbar materials, but both need equipment that was not available \citep{konshen_ito_2026}. Copper tape was chosen over conductive silver adhesive because it is cheaper, available locally, already has adhesive on it, and carries far more current than the 21\,W panel draws. Three sources were priced at R\,49, R\,385 and R\,96, and the Konshen tape was chosen so that the tape and the glass came from the same supplier.
+
+%---------------------------------------------------------------------
+\section{Temperature Sensing}
+\label{app:temp-sensor-options}
+%---------------------------------------------------------------------
+
+\begin{table}[H]
+    \centering
+    \caption[Temperature sensor options considered]{\textbf{Temperature sensor options considered.} Accuracy at or near 37\,\textdegree{}C.}
+    \label{tab:temp-sensor-options}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.8cm}@{}}
+        \toprule
+        \textbf{Component} & \textbf{Vendor} & \textbf{Cost} & \textbf{Accuracy and format} & \textbf{Outcome} \\
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Resistance temperature detectors}} \\
+        \addlinespace[2pt]
+        PT100 RTD, 3-wire, 1\,m & Micro Robotics & 110 & 0.5\%, class not stated & Rejected, tolerance class unstated \\
+        PT1000 RTD Class A, 2-wire, 5\,cm probe & RS Online & 377 & $\pm$0.23 to 0.28\,\textdegree{}C, short stem & \textbf{Chosen} as calibration reference \\
+        PT100 RTD Class A, 3-wire, 10\,cm probe & RS Online & 489 & $\pm$0.22\,\textdegree{}C & Rejected, longer than the chamber allows \\
+        PT100 RTD Class A, 3-wire, 60\,cm probe & RS Online & 1\,194 & $\pm$0.224\,\textdegree{}C & Rejected, three times the cost for 0.006\,\textdegree{}C \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Small-format probes for distributed sensing}} \\
+        \addlinespace[2pt]
+        DS18B20, waterproof digital & RS Online & 145 & $\pm$0.5\,\textdegree{}C, needs no converter & Rejected, accuracy outside target \\
+        GA10K3MCD1 NTC, 10\,k$\Omega$, $\beta = 3976$\,K & DigiKey & 245 ea & $\pm$0.88\% at 25\,\textdegree{}C, roughly $\pm$0.2\,\textdegree{}C, small bead on long leads & \textbf{Chosen} for all four positions, R\,980 for four \\
+        B57541G1103F000 NTC, 10\,k$\Omega$, $\beta = 3478$\,K & DigiKey & 65 & Bare bead & Rejected, a component rather than a probe \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:temp-sensor-options} lists the temperature sensors that were considered. The Micro Robotics PT100 is by far the cheapest, but it gives an accuracy of 0.5\% without stating a tolerance class, so it cannot be compared against the accuracy target. The 60\,cm PT100 is only 0.006\,\textdegree{}C more accurate than the chosen PT1000 at three times the price, which is not worth it for a reference used to calibrate thermistors that are accurate to $\pm$0.2\,\textdegree{}C.
+
+The two converters were chosen to suit the sensors. The PT1000 is read by a MAX31865 (R\,245), which is made for RTDs and uses SPI \citep{maxim_max31865_2015}. Connecting four thermistors straight to the microcontroller would use four analogue pins and depend on its built-in converter, so an ADS1115 (R\,245) is used instead. It has 16 bits, four channels and programmable gain, and uses I\textsuperscript{2}C \citep{ti_ads1115_2018}. An 18-bit MCP3424 was rejected because it costs more and the accuracy is limited by the thermistor, not the converter.
+
+%---------------------------------------------------------------------
+\section{CO\textsubscript{2} Supply and Valves}
+\label{app:co2-valve-options}
+%---------------------------------------------------------------------
+
+From the Air Products 2026 price list, a K cylinder holding about 31\,kg costs about R\,1\,708 in total, and the smaller F cylinder costs R\,1\,758 to R\,2\,647. The smaller cylinder costs more for less gas because the rental, delivery and admin charges are fixed. Buying a regulator and a solenoid separately costs at least R\,2\,987, while one assembly that also includes the needle and check valves costs R\,1\,628.
+
+Table~\ref{tab:co2-valve-options} lists every supply and valve option. The regulator inlet was listed as G5/8, which is not the G1/4 Type 30 fitting used on South African cylinders. The part that arrived was Type 30, so the listing was wrong and no adapter was needed on the regulator side. The SodaStream adapter is still needed, because a SodaStream cylinder does not have a Type 30 valve. A separate check valve was priced at R\,98 but not ordered, because the regulator assembly already has one.
+
+\begin{table}[H]
+    \centering
+    \caption[CO\textsubscript{2} supply and valve options considered]{\textbf{CO\textsubscript{2} supply and valve options considered.}}
+    \label{tab:co2-valve-options}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.9cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.8cm}>{\raggedright\arraybackslash}p{7.6cm}@{}}
+        \toprule
+        \textbf{Component} & \textbf{Vendor} & \textbf{Cost} & \textbf{Outcome} \\
+        \midrule
+        K cylinder, 31\,kg, with fill and rental & Air Products & 1\,708 & Rejected, weight and supplier account required \\
+        \addlinespace[2pt]
+        F cylinder, with fill and rental & Air Products & 1\,758--2\,647 & Rejected, costs more for less gas \\
+        \addlinespace[2pt]
+        SodaStream 60\,L screw-in cylinder & Takealot & 450 & \textbf{Chosen}, portable and exchanged at retail \\
+        \addlinespace[2pt]
+        GCE dual-gauge regulator, G5/8 & RS Online & 1\,950 & Rejected, regulator only \\
+        \addlinespace[2pt]
+        SMC solenoid valve, normally closed, 24\,V & RS Online & 1\,037 & Rejected, solenoid only \\
+        \addlinespace[2pt]
+        LST Aqua dual-gauge regulator with solenoid, needle and check valve & McMerwe & 1\,628 & \textbf{Chosen}, all four functions in one assembly \\
+        \addlinespace[2pt]
+        Deluxe SodaStream cylinder adapter & Beyond Brewing & 335 & \textbf{Required}, connects the retail cylinder to the regulator inlet \\
+        \addlinespace[2pt]
+        1-channel 5\,V relay module, 10\,A 250\,V & DIY Electronics & 12 & \textbf{Chosen}, isolates the mains solenoid from the logic side \\
+        \addlinespace[2pt]
+        CO\textsubscript{2} pressure-resistant tubing, 6\,mm OD, 3\,m & McMerwe & 75 & \textbf{Chosen}, rated for regulated cylinder pressure and matches the bulkhead fittings \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The mains solenoid is switched by a 5\,V relay module rated 10\,A at 250\,V, which keeps the logic side separate from the mains.
+
+The gas line uses 6\,mm push-in fittings throughout, because that is the size the main components use, so any section can be replaced without an adapter. Two RS PRO 6\,mm bulkhead fittings (R\,134 each) take the gas line through the chamber wall. A bulkhead clamps onto both sides of the wall, so it holds up to the chamber being opened many times, which a tube through a drilled hole would not. Two RS PRO PG9 brass cable glands (R\,60 each) take the sensor wires through the wall. The wires are potted where they pass through, because a gland is made to grip one round cable and a bundle of thin wires is not round.
+
+%---------------------------------------------------------------------
+\section{CO\textsubscript{2} and Humidity Sensing}
+\label{app:co2-sensor-options}
+%---------------------------------------------------------------------
+
+\begin{table}[H]
+    \centering
+    \caption[CO\textsubscript{2} and humidity sensor options considered]{\textbf{CO\textsubscript{2} and humidity sensor options considered.} A 5\% setpoint is 50\,000\,ppm.}
+    \label{tab:co2-sensor-options}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{5.0cm}@{}}
+        \toprule
+        \textbf{Component} & \textbf{Vendor} & \textbf{Cost} & \textbf{Range and accuracy} & \textbf{Outcome} \\
+        \midrule
+        DFRobot SEN0220 & Micro Robotics & 2\,162 & 0--50\,000\,ppm & Rejected, cannot show overshoot \\
+        \addlinespace[2pt]
+        MH-Z19 & Micro Robotics & 861 & 0--5\,000\,ppm & Rejected, range far below setpoint \\
+        \addlinespace[2pt]
+        RS 1809026 & RS Online & 3\,467 & 0--100\% & Rejected, out of stock \\
+        \addlinespace[2pt]
+        SprintIR-W-F-100 & DigiKey & 4\,352 & 0--100\%, same maker and performance as below & Rejected on price \\
+        \addlinespace[2pt]
+        ExplorIR-M-E-100 & DigiKey & 3\,424 & 0--100\%, $\pm$(300\,ppm $+$ 5\%), UART & \textbf{Chosen} for CO\textsubscript{2} control \\
+        \addlinespace[2pt]
+        SCD30 & DigiKey & 777 & 0--40\,000\,ppm CO\textsubscript{2}; 0--100\,\%RH, $\pm$3\,\%RH & \textbf{Chosen} for humidity \\
+        \addlinespace[2pt]
+        DHT22 & Communica & 48 & 0--100\,\%RH, $\pm$2\,\%RH; $\pm$0.5\,\textdegree{}C & \textbf{Added} for humidity after the SCD30 failed \\
+        \addlinespace[2pt]
+        BMP280 module, 3.3\,V & DIY Electronics & 16 & 300--1100\,hPa; $\pm$1\,\textdegree{}C & \textbf{Added} for room temperature after a thermistor was moved to the glass \\
+        \addlinespace[2pt]
+        SCD41 (STEMMA QT) & DigiKey & 820 & Photoacoustic, $\pm$(40--50\,ppm $+$ 2.5--5\%) & Rejected, less accurate for more money \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:co2-sensor-options} lists the gas sensors that were considered. The ExplorIR-M-E-100 is rated for $-$25 to 55\,\textdegree{}C and 0 to 95\% RH (non-condensing), uses UART and draws about 1\,mA \citep{gss_explorir_2021}. The SprintIR-W-F-100 performs the same and comes from the same maker as the sensor used by Yan, but costs R\,928 more. Using the SCD30 for both CO\textsubscript{2} and humidity would have saved R\,2\,647, but it only reads up to 40\,000\,ppm, which is below the 50\,000\,ppm setpoint, so it cannot be the control sensor. Two cheap sensors were added late in testing. When the SCD30 stopped working, a DHT22 took over the humidity measurement for the long run in Section~\ref{sec:humidity}, and when the room thermistor was moved onto the glass, a BMP280 took over the room temperature. Both were bought locally on the day for R\,64 in total, and both are good enough for channels that are measured but not controlled.
+
+%---------------------------------------------------------------------
+\section{Power}
+\label{app:power-options}
+%---------------------------------------------------------------------
+
+A 12\,V, 10\,A, 120\,W wall adapter (R\,295) powers the system, with a 12\,V barrel plug (R\,33) on the end of the lead. An XL4016 buck converter (R\,58), rated for 4 to 38\,V in and up to 8\,A, steps the 12\,V down for the microcontroller and sensors. Its current rating is far above what the logic side draws, which leaves margin for the switching noise the heaters put on the supply.
+
+%*********************************************************************
+%   APPENDIX: SUMMARY OF COMPONENT SELECTIONS
+%   Belongs to Chapter 4, System Design.
+%   Referenced from the Chapter 4 opening as app:selection-summary.
+%   If you already have appendix_component_selection.tex, this table can
+%   be pasted in as its first section instead of being a separate appendix.
+%*********************************************************************
+\section{Summary of Component Selections}
+\label{app:selection-summary}
+
+Table~\ref{tab:selection-summary} lists every component in the built incubator and why it was chosen. The prices and rejected options are in Appendix~\ref{app:component-selection}, and the bill of materials is in Appendix~\ref{app:bom}.
+
+\begin{table}[H]
+    \centering
+    \caption[Summary of component selections]{\textbf{Summary of component selections.}}
+    \label{tab:selection-summary}
+    \small
+    \setlength{\tabcolsep}{5pt}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{4.7cm}>{\raggedright\arraybackslash}p{8.6cm}@{}}
+        \toprule
+        \textbf{Function} & \textbf{Selected} & \textbf{Deciding reason} \\
+        \midrule
+        Chamber heating & Polyimide film heater, 12\,V 12\,W & Area heating on a single 12\,V rail, and not self-limiting \\
+        Lid heating & ITO coated glass, 5--10\,$\Omega$/sq & Transparent heating element; only grade reaching useful power at 12\,V \\
+        Busbars & Copper tape & Needs no deposition equipment; ample current capacity \\
+        Reference thermometer & PT1000 Class A, 2-wire & Stated tolerance class, and PT1000 makes the lead error negligible \\
+        Distributed sensing & NTC thermistor, 10\,k$\Omega$ & Only format that fits a 26\,mm chamber; one calibration curve for four channels \\
+        RTD converter & MAX31865 & RTD-specific, over SPI \citep{maxim_max31865_2015} \\
+        Thermistor converter & ADS1115 & Four channels on two pins, gain matched to the range around 37\,\textdegree{}C \\
+        CO\textsubscript{2} sensing & ExplorIR-M-E-100 & Rated to 100\%, so overshoot above a 5\% setpoint is measurable \\
+        Humidity sensing & SCD30 & 0--100\% RH on the existing bus; second CO\textsubscript{2} channel for cross-checking \\
+        Replacement sensing & DHT22 and BMP280 & Locally stocked replacements for the failed SCD30 and the room thermistor \\
+        Gas supply & SodaStream cylinder and adapter & Portable and retail-exchangeable; needs no gas contract \\
+        Regulator and valves & Aquarium regulator assembly & Regulator, solenoid, needle and check valve in one matched unit \\
+        Solenoid switching & 5\,V relay module, 10\,A 250\,V & Isolates the mains solenoid from the logic side \\
+        Humidifier & Container with cable-gland penetrations & Gland clamps the tube mechanically instead of relying on sealant \\
+        Controller & STM32L476RG Nucleo-64 & All required peripherals at once; FPU; on-board programmer \\
+        Supply & 12\,V 120\,W adapter with buck converter & Headroom for every heated zone at full duty during warm-up \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+%*********************************************************************
+% End of Component Selection
+%*********************************************************************
+
+%*********************************************************************
+%	APPENDIX: BILL OF MATERIALS
+%*********************************************************************
+\section{Bill of materials}
+\label{app:bom-chapter}
+
+\begin{table}[H]
+    \centering
+    \caption[Bill of materials]{\textbf{Bill of materials for the prototype incubator.} Prices as paid in September 2026, in ZAR. Filament, fasteners, wire, the humidifier bottle and the development board are not included. The first four are workshop stock, and the board was not bought for this project.}
+    \label{app:bom}
+    \footnotesize
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{7.0cm}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.4cm}@{}}
+        \toprule
+        \textbf{Item} & \textbf{Vendor} & \textbf{Qty} & \textbf{Unit (R)} & \textbf{Total (R)} \\
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Sensing}} \\
+        \addlinespace[2pt]
+        PT1000 RTD, Class A, 2-wire, 5\,cm probe & RS Online & 1 & 377 & 377 \\
+        MAX31865 RTD amplifier & DigiKey & 1 & 245 & 245 \\
+        GA10K3MCD1 NTC thermistor, 10\,k$\Omega$ & DigiKey & 4 & 245 & 980 \\
+        ADS1115 16-bit ADC, 4-channel & DigiKey & 1 & 245 & 245 \\
+        SCD30 humidity and CO$_2$ sensor & DigiKey & 1 & 777 & 777 \\
+        ExplorIR-M-E-100 CO$_2$ sensor, 0--100\% & DigiKey & 1 & 3\,424 & 3\,424 \\
+        DHT22 humidity and temperature sensor & Communica & 1 & 48 & 48 \\
+        BMP280 pressure and temperature module, 3.3\,V & DIY Electronics & 1 & 16 & 16 \\
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textit{Subtotal}} & 6\,112 \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Heating}} \\
+        \addlinespace[2pt]
+        ITO coated glass, 150$\times$112$\times$1.1\,mm & Konshen Glass & 5 & 512 & 2\,560 \\
+        Import duties and tax on glass & Konshen Glass & -- & -- & 750 \\
+        Copper foil tape, busbars & Konshen Glass & 1 & 96 & 96 \\
+        Polyimide film heaters, 12\,V 12/13\,W, 20-pack & Amazon & 1 & 570 & 570 \\
+        ITO coated PET film (fallback, not used) & DigiKey & 1 & 165 & 165 \\
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textit{Subtotal}} & 4\,141 \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{CO$_2$ delivery}} \\
+        \addlinespace[2pt]
+        Dual-gauge regulator with solenoid, needle and check valve & McMerwe & 1 & 1\,628 & 1\,628 \\
+        SodaStream 60\,L screw-in CO$_2$ cylinder & Takealot & 1 & 450 & 450 \\
+        Deluxe SodaStream cylinder adapter & Beyond Brewing & 1 & 335 & 335 \\
+        CO$_2$ pressure-resistant tube, 6\,mm OD, 3\,m & McMerwe & 1 & 75 & 75 \\
+        5\,V relay module, 10\,A 250\,V & DIY Electronics & 1 & 12 & 12 \\
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textit{Subtotal}} & 2\,500 \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Connectors and sealing}} \\
+        \addlinespace[2pt]
+        RS PRO PMM 6\,mm push-in bulkhead fitting & RS Online & 2 & 134 & 268 \\
+        RS PRO PG9 brass cable gland, IP68 & RS Online & 2 & 60 & 120 \\
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textit{Subtotal}} & 388 \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[1pt]
+        \multicolumn{5}{@{}l}{\textit{Power}} \\
+        \addlinespace[2pt]
+        12\,V 10\,A 120\,W AC to DC adapter & Amazon & 1 & 295 & 295 \\
+        DC-DC buck converter, 4--38\,V in, 8\,A & MicroRobotics & 1 & 58 & 58 \\
+        12\,V DC female barrel plug & Amazon & 1 & 33 & 33 \\
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textit{Subtotal}} & 386 \\
+        \addlinespace[4pt]
+        \midrule
+        \addlinespace[2pt]
+        \multicolumn{4}{@{}r}{\textbf{Total}} & \textbf{13\,527} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Two items in the table were bought but are not used in the build. The ITO-coated PET film was ordered as a backup while the glass supply was uncertain, and was not needed once Konshen Glass quoted. It is included because it was paid for. The 20-pack of heaters covers the two wall pads, with eighteen spares. A separate check valve was priced at R\,98 but not ordered, because the regulator assembly already has one.
+
+Two items make up half the total cost: the CO$_2$ sensor is 25\% and the ITO glass with its import duties is another 25\%. Everything else makes up the other half.
+
+%*********************************************************************
+% End of Bill of Materials
+%*********************************************************************

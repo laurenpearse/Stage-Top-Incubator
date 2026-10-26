@@ -1,0 +1,47 @@
+%---------------------------------------------------------------------
+%	Abstract
+%---------------------------------------------------------------------
+\chapter{Abstract}				
+\label{ch:abs}
+%---------------------------------------------------------------------
+% TAKEN FROM UCT WEBSITE
+% The Doctoral Degrees Board recommends that candidates include an abstract 
+% that fits onto one page, and which includes the author's full name, thesis 
+% title and date. The text should not exceed 350 words. Candidates may also 
+% include a more substantial summary of their work, in addition to the abstract.
+% Follow the same format for an MSc. abstract.
+
+% The abstract should stand on its own. It should answer the following questions:
+%	1.	What did the author do? What ideas, notions, hypotheses, 
+%		concepts, theories or thoughts were investigated?
+%	2.	How did the author do the work? What data were generated and used? 
+%		What was the origin of the data? How were data gathered? 
+%		What tests, scales, indices, or summary measures were used? 
+%		In other words, how was the analysis and/or synthesis done?
+%	3.	What were the conclusions and what were the significant findings?
+%
+% Some studies cannot readily be summarised in this way and require more 
+% descriptive abstracts. Do not use telegraphic phrases. Do not repeat 
+% information given in the title. Do not use abbreviations. The purpose of 
+% an abstract is to enable a researcher/examiner to understand the essential 
+% hypothesis, method and findings of the research.
+%---------------------------------------------------------------------
+\begin{center}
+	\textbf{\Large \titl}\\
+			\vskip 0.2cm
+			\auth\\
+			\vskip 0.2cm
+	\textit{\footnotesize \FullDate}
+			\vskip 1cm
+\end{center}
+
+%---------------------------------------------------------------------
+% Write abstract here [350 words]
+%---------------------------------------------------------------------
+Live-cell imaging of mycobacteria requires the sample to be held at 37\,\textdegree{}C and high humidity, and for infection work with host cells, 5\,\% carbon dioxide, while it sits on a microscope stage. Commercial stage-top incubators that do this cost several hundred thousand rand and cannot be modified. This project designed, built and tested a low-cost stage-top incubator for imaging \textit{Mycobacterium smegmatis} in a standard well plate, controlled by a single microcontroller.
+
+Ten requirements were set from the biology and the microscope. The chamber air and the heated glass lid were modelled as first order thermal systems and the gas as a single well-mixed volume, and proportional-integral controllers were designed from these models. Open-loop step tests then measured the real gains and time constants. These showed that the wall heaters warm the glass almost as much as the air, so the chamber controller was retuned to account for this coupling. Four closed-loop tests and a 6.5 hour run measured the temperature and humidity. After the gas connection leaked, the carbon dioxide tests were replaced by a sensitivity study.
+
+The chamber air held $37.028 \pm 0.038$\,\textdegree{}C over 80 minutes, returned to setpoint 1.6 minutes after the chamber was opened, and was unaffected by a change in room temperature. Holding the air at setpoint did not hold the sample at setpoint, with the water in the wells sitting 2.6\,\textdegree{}C below the air. A heater under the plate brought the centre well to within 0.19\,\textdegree{}C of 37\,\textdegree{}C. The same offset limited the humidity to 77.3\,\%, close to the 78\,\% predicted from the water and air temperatures and short of the 90\,\% required. Six of the ten requirements were met and one was partly met, and none of the shortfalls came from the controller.
+
+The incubator cost R\,13\,527, an order of magnitude below the commercial systems reviewed. The results show that the next design should heat the sample directly from below under closed-loop control, and should add a separate humidified air supply to reach the required humidity.
