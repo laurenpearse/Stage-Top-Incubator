@@ -4,8 +4,7 @@ EEE4022S final year project (topic RAV2026-07), Department of Electrical Enginee
 
 **Author:** Lauren Pearse
 **Supervisor:** R.A. Verrinder
-**Co-supervisor:** Dr M.K. Mason, Molecular Mycobacteriology Research Unit
-
+**Co-supervisor:** Dr M.K. Mason
 ## About the project
 
 A low-cost stage-top incubator was designed, built and tested for time-lapse imaging of *Mycobacterium smegmatis* in a standard well plate on an inverted microscope. The chamber holds the sample at 37 °C, keeps the humidity high to limit evaporation, and has a CO2 channel for later host-cell infection work. All control runs on a single STM32 microcontroller.
